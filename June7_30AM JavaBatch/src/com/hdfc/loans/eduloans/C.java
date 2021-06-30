@@ -1,0 +1,24 @@
+package com.hdfc.loans.eduloans;
+
+import com.hdfc.loans.carloans.A;
+import com.hdfc.loans.carloans.B;
+
+public class C extends B
+{
+	public void m3()
+	{
+		System.out.println("iam m3 from C");
+	}
+
+	public static void main(String[] args) 
+	{
+		B b = new B();
+		b.m1();
+		b.m2();
+		
+		C c = new C();
+		c.m1();
+		c.m3();
+	}
+
+}
