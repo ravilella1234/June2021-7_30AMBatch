@@ -8,5 +8,17 @@
 	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/selenium-java-3.141.59/libs/guava-25.0-jre.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/selenium-java-3.141.59/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/selenium-java-3.141.59/libs/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/jar_files/commons-codec-1.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/jar_files/commons-compress-1.20.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/jar_files/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/jar_files/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/jar_files/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/jar_files/httpclient5-5.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/jar_files/httpcore5-5.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/jar_files/httpcore5-h2-5.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/jar_files/jarchivelib-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/jar_files/jsoup-1.13.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/jar_files/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/jar_files/webdrivermanager-4.4.3.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
