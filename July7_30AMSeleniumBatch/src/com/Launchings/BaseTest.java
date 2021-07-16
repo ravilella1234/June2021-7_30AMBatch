@@ -3,6 +3,7 @@ package com.Launchings;
 import java.io.FileInputStream;
 import java.util.Properties;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeDriverService;
@@ -91,9 +92,9 @@ public class BaseTest
 			profile.setAssumeUntrustedCertificateIssuer(false);
 			
 			//work with proxy settings
-			profile.setPreference("network.proxy.type", 1);
-			profile.setPreference("network.proxy.socks;", "192.156.10.1");
-			profile.setPreference("network.proxy.socks_port;0", 1765);
+			//profile.setPreference("network.proxy.type", 1);
+			//profile.setPreference("network.proxy.socks;", "192.156.10.1");
+			//profile.setPreference("network.proxy.socks_port;0", 1765);
 			
 			driver = new FirefoxDriver(option);
 		}
@@ -103,6 +104,21 @@ public class BaseTest
 	{
 		//driver.get(childProp.getProperty(url));
 		driver.navigate().to(childProp.getProperty(url));
+	}
+	
+	public static void clickElement(String locator)
+	{
+		driver.findElement(By.cssSelector(locator)).click();
+	}
+
+	public static void type(String locator, String text) 
+	{
+		driver.findElement(By.name(locator)).sendKeys(text);
+	}
+
+	public static void selectOption(String locator, String option) 
+	{
+		driver.findElement(By.id(locator)).sendKeys(option);
 	}
 
 }

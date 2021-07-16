@@ -1,6 +1,6 @@
-[1626319794.387][INFO]: Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 47769
-[1626319794.388][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1626319795.491][INFO]: [11716751456476bd40cca22535c1366e] COMMAND InitSession {
+[1626406096.574][INFO]: Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 38315
+[1626406096.575][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1626406097.644][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] COMMAND InitSession {
    "capabilities": {
       "firstMatch": [ {
          "browserName": "chrome",
@@ -18,9 +18,9 @@
       }
    }
 }
-[1626319795.538][INFO]: Populating Preferences file: {
+[1626406097.671][INFO]: Populating Preferences file: {
    "account_id_migration_state": 2,
-   "account_tracker_service_last_update": "13270792355538700",
+   "account_tracker_service_last_update": "13270878755540592",
    "alternate_error_pages": {
       "backup": true
    },
@@ -51,29 +51,31 @@
    },
    "countryid_at_install": 18766,
    "data_reduction": {
-      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "49130" ],
-      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "49130" ],
-      "last_update_date": "13270761000000000",
+      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "98428", "324261" ],
+      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "98428", "324261" ],
+      "last_update_date": "13270847400000000",
       "this_week_number": 2689,
       "this_week_services_downstream_foreground_kb": {
          "107267424": 2,
-         "112189210": 9,
+         "112189210": 12,
          "125522256": 1,
+         "130931413": 6,
          "21145003": 1261,
          "25921771": 6,
          "35473769": 0,
-         "35565745": 1,
+         "35565745": 8,
+         "41424546": 6,
          "47815025": 6,
          "50464499": 1,
          "5151071": 3,
-         "54845618": 1,
+         "54845618": 14,
          "6019475": 104,
          "61656965": 0,
          "65957842": 1,
          "67052219": 0,
          "73107389": 19,
          "7687691": 0,
-         "78917933": 80,
+         "78917933": 405,
          "8561691": 0,
          "88863520": 0,
          "95682324": 3
@@ -81,7 +83,7 @@
    },
    "default_apps_install_state": 3,
    "domain_diversity": {
-      "last_reporting_timestamp": "13270792356765335"
+      "last_reporting_timestamp": "13270877651262821"
    },
    "download": {
       "directory_upgrade": true
@@ -130,11 +132,11 @@
    },
    "google": {
       "services": {
-         "signin_scoped_device_id": "76808c1f-7029-4806-abab-a8cd32ed58b6"
+         "signin_scoped_device_id": "438f31f3-38d1-47fe-b7e4-c975fc27f577"
       }
    },
-   "http_original_content_length": "49130",
-   "http_received_content_length": "49130",
+   "http_original_content_length": "422689",
+   "http_received_content_length": "422689",
    "in_product_help": {
       "snoozed_feature": {
          "IPH_ProfileSwitch": {
@@ -161,7 +163,7 @@
       }
    },
    "language_model_counters": {
-      "en": 3
+      "en": 11
    },
    "media": {
       "device_id_salt": "4F219AAD3C911AD675F955A78F8DFE82",
@@ -174,7 +176,7 @@
    },
    "ntp": {
       "custom_background_local_to_device": false,
-      "num_personal_suggestions": 3
+      "num_personal_suggestions": 5
    },
    "optimization_guide": {
       "hintsfetcher": {
@@ -229,7 +231,15 @@
 
             },
             "client_hints": {
-
+               "https://www.amazon.in:443,*": {
+                  "expiration": "0",
+                  "last_modified": "13270879199250233",
+                  "model": 1,
+                  "setting": {
+                     "client_hints": [ 6, 4, 5 ],
+                     "expiration_time": 88026405599.25023
+                  }
+               }
             },
             "clipboard": {
 
@@ -302,13 +312,24 @@
                },
                "https://expired.badssl.com:443,*": {
                   "expiration": "0",
-                  "last_modified": "13270793149268876",
+                  "last_modified": "13270862770898942",
                   "model": 0,
                   "setting": {
                      "hasHighScore": false,
                      "lastMediaPlaybackTime": 0.0,
                      "mediaPlaybacks": 0,
-                     "visits": 1
+                     "visits": 2
+                  }
+               },
+               "https://www.amazon.in:443,*": {
+                  "expiration": "0",
+                  "last_modified": "13270879233253847",
+                  "model": 0,
+                  "setting": {
+                     "hasHighScore": false,
+                     "lastMediaPlaybackTime": 0.0,
+                     "mediaPlaybacks": 0,
+                     "visits": 7
                   }
                },
                "https://www.flipkart.com:443,*": {
@@ -388,10 +409,10 @@
             "site_engagement": {
                "https://accounts.google.com:443,*": {
                   "expiration": "0",
-                  "last_modified": "13270792583855969",
+                  "last_modified": "13270877653466128",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.3270792583855936e+16,
+                     "lastEngagementTime": 1.3270848034489908e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 3.6,
                      "rawScore": 3.6
@@ -399,10 +420,10 @@
                },
                "https://chrome.google.com:443,*": {
                   "expiration": "0",
-                  "last_modified": "13270792554134179",
+                  "last_modified": "13270877653466178",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.3270792554134168e+16,
+                     "lastEngagementTime": 1.327084800476814e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 2.1,
                      "rawScore": 2.1
@@ -410,21 +431,32 @@
                },
                "https://expired.badssl.com:443,*": {
                   "expiration": "0",
-                  "last_modified": "13270793122552799",
+                  "last_modified": "13270877653465986",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.327079312255278e+16,
+                     "lastEngagementTime": 1.3270848853465906e+16,
                      "lastShortcutLaunchTime": 0.0,
-                     "pointsAddedToday": 3.0,
-                     "rawScore": 3.0
+                     "pointsAddedToday": 4.5,
+                     "rawScore": 4.5
+                  }
+               },
+               "https://www.amazon.in:443,*": {
+                  "expiration": "0",
+                  "last_modified": "13270879226684052",
+                  "model": 0,
+                  "setting": {
+                     "lastEngagementTime": 1.3270879226684024e+16,
+                     "lastShortcutLaunchTime": 0.0,
+                     "pointsAddedToday": 14.999999999999998,
+                     "rawScore": 14.999999999999998
                   }
                },
                "https://www.flipkart.com:443,*": {
                   "expiration": "0",
-                  "last_modified": "13270792509133735",
+                  "last_modified": "13270877653466071",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.3270792509133706e+16,
+                     "lastEngagementTime": 1.3270847959767676e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 3.6,
                      "rawScore": 3.6
@@ -432,10 +464,10 @@
                },
                "https://www.google.com:443,*": {
                   "expiration": "0",
-                  "last_modified": "13270792537343444",
+                  "last_modified": "13270877653466231",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.3270792537343434e+16,
+                     "lastEngagementTime": 1.3270847987977404e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 3.0,
                      "rawScore": 3.0
@@ -477,7 +509,7 @@
       "exit_type": "Normal",
       "exited_cleanly": true,
       "icon_version": 7,
-      "last_engagement_time": "13270793122552780",
+      "last_engagement_time": "13270879226684023",
       "last_time_obsolete_http_credentials_removed": 1626318814.440904,
       "managed_user_id": "",
       "name": "julychromeprofile",
@@ -490,20 +522,57 @@
       "event_timestamps": {
 
       },
-      "metrics_last_log_time": "13270792354"
+      "metrics_last_log_time": "13270878754"
    },
    "sessions": {
       "event_log": [ {
-         "crashed": false,
-         "time": "13270792354539968",
-         "type": 0
+         "tab_count": 1,
+         "time": "13270877949094387",
+         "type": 2,
+         "window_count": 1
       }, {
-         "crashed": true,
-         "time": "13270793118104419",
+         "crashed": false,
+         "time": "13270878070036982",
          "type": 0
       }, {
          "tab_count": 1,
-         "time": "13270793149267811",
+         "time": "13270878121003864",
+         "type": 2,
+         "window_count": 1
+      }, {
+         "crashed": false,
+         "time": "13270878306272091",
+         "type": 0
+      }, {
+         "tab_count": 1,
+         "time": "13270878364238250",
+         "type": 2,
+         "window_count": 1
+      }, {
+         "crashed": false,
+         "time": "13270878694113794",
+         "type": 0
+      }, {
+         "tab_count": 1,
+         "time": "13270878803641890",
+         "type": 2,
+         "window_count": 1
+      }, {
+         "crashed": false,
+         "time": "13270878811431686",
+         "type": 0
+      }, {
+         "tab_count": 1,
+         "time": "13270878919244818",
+         "type": 2,
+         "window_count": 1
+      }, {
+         "crashed": false,
+         "time": "13270879160052357",
+         "type": 0
+      }, {
+         "tab_count": 1,
+         "time": "13270879233244093",
          "type": 2,
          "window_count": 1
       } ]
@@ -514,7 +583,8 @@
    },
    "spellcheck": {
       "dictionaries": [ "en-US" ],
-      "dictionary": ""
+      "dictionary": "",
+      "use_spelling_service": false
    },
    "sync": {
       "requested": false
@@ -538,7 +608,7 @@
       "system_web_app_last_update": "91.0.4472.124"
    }
 }
-[1626319795.560][INFO]: Populating Local State file: {
+[1626406097.687][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -576,16 +646,25 @@
    "os_crypt": {
       "encrypted_key": "RFBBUEkBAAAA0Iyd3wEV0RGMegDAT8KX6wEAAABIfeACSuB+SYX8imWow5+/AAAAAAIAAAAAABBmAAAAAQAAIAAAAB622caUearHcHb78xt6QPggywPtKaQOPJ9Dgl3jmySRAAAAAA6AAAAAAgAAIAAAAPb+6s6c9nq814oUpOkqLiOtNxmyHu9sPyvIwpEubICXMAAAAIFEiI8fymbOjMgppajq7Tw3eCwbTawMZCWuEdY5oIG6DfdN2DwXvyOQUTWMXS1/10AAAAAdl4oLnrcy7oTrFC5tcyz+q0PKske3H5Iu4APiTv0WDVhGo50jygcMUNGpXZj12vjhGLVsHnRXNbxjERPrr1lM"
    },
+   "password_manager": {
+      "os_password_blank": true,
+      "os_password_last_changed": "13270879201176699"
+   },
    "policy": {
       "last_statistics_update": "13270793117352092"
    },
    "profile": {
       "info_cache": {
          "Default": {
-            "active_time": 1626319518.338747,
+            "active_time": 1626404051.017181,
             "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
             "background_apps": false,
+            "default_avatar_fill_color": -10089165,
+            "default_avatar_stroke_color": -1,
+            "gaia_given_name": "",
             "gaia_id": "",
+            "gaia_name": "",
+            "hosted_domain": "",
             "is_consented_primary_account": false,
             "is_ephemeral": false,
             "is_guest": false,
@@ -594,6 +673,7 @@
             "managed_user_id": "",
             "metrics_bucket_index": 1,
             "name": "julychromeprofile",
+            "profile_highlight_color": -10089165,
             "user_name": ""
          }
       },
@@ -607,8 +687,8 @@
       "http_cache_finch_experiment_groups": "None None None"
    },
    "shutdown": {
-      "num_processes": 3,
-      "num_processes_slow": 0,
+      "num_processes": 5,
+      "num_processes_slow": 1,
       "type": 1
    },
    "ssl": {
@@ -618,9 +698,9 @@
    },
    "subresource_filter": {
       "ruleset_version": {
-         "checksum": 0,
-         "content": "",
-         "format": 0
+         "checksum": 1815104232,
+         "content": "9.28.0",
+         "format": 29
       }
    },
    "tab_stats": {
@@ -635,30 +715,192 @@
    "uninstall_metrics": {
       "installation_date2": "1574898982"
    },
+   "updateclientdata": {
+      "apps": {
+         "aemomkdncapdnfajjbbcbdebjljbpmpj": {
+            "cohort": "1::",
+            "cohortname": "",
+            "dlrc": 5309,
+            "pf": "af36ee72-41e8-45a1-846f-3ce46b74b83f"
+         },
+         "cmahhnpholdijhjokonmfdjbfmklppij": {
+            "cohort": "1:wr3:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5309,
+            "fp": "1.b4ddbdce4f8d5c080328aa34c19cb533f2eedec580b5d97dc14f74935e4756b7",
+            "pf": "a856bb91-aceb-4cea-b215-920e760c671e",
+            "pv": "1.0.6"
+         },
+         "dhlpobdgcjafebgbbhjdnapejmpkgiie": {
+            "cohort": "1:z9x:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5309,
+            "fp": "1.3eeded944371798374de67d1fa7bb8f32f90a7cd502b04ee71e0de0cf79e2a11",
+            "pf": "83a6f6fe-0705-4007-8ad7-95353d0855de",
+            "pv": "20210609.1"
+         },
+         "eeigpngbgcognadeebkilcpcaedhellh": {
+            "cohort": "1:w59:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5309,
+            "pf": "b708753f-b71d-4836-9062-32ea7977efb3"
+         },
+         "ehgidpndbllacpjalkiimkbadgjfnnmc": {
+            "cohort": "1:ofl:",
+            "cohorthint": "stable64",
+            "cohortname": "stable64",
+            "dlrc": 5309,
+            "fp": "1.a8a79d350c2a5e3bc36226633a8e0bed0dfab184e77f38fc8f0820ebacf8eafc",
+            "pf": "db1e39cf-0ecd-4291-b753-b215cde5e039",
+            "pv": "2018.8.8.0"
+         },
+         "gcmjkmgdlgnkkcocmoeiminaijmmjnii": {
+            "cohort": "1:bm1:1069@0.01,1089@0.1",
+            "cohorthint": "M54ToM99",
+            "cohortname": "M54ToM99",
+            "dlrc": 5309,
+            "fp": "1.91ee417000553ca22ed67530545c4177a08e7ffcf602c292a71bd89ecd0568a5",
+            "pf": "d49ecc75-208d-4628-afdc-39ff67ddb81c",
+            "pv": "9.28.0"
+         },
+         "ggkkehgbnfjpeggfpleeakpidbkibbmn": {
+            "cohort": "1:ut9:10gl@0.01",
+            "cohorthint": "M80ToM99",
+            "cohortname": "M80ToM99",
+            "dlrc": 5309,
+            "fp": "1.e03336cad15559578407db3fc7c08de34022cd38341bcf10f88b6ff93cf0d9b9",
+            "pf": "e98bd493-956c-4de7-b66b-c43c108813ad",
+            "pv": "2021.6.21.1141"
+         },
+         "giekcmmlnklenlaomppkphknjmnnpneh": {
+            "cohort": "1:j5l:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5309,
+            "fp": "1.fd515ec0dc30d25a09641b8b83729234bc50f4511e35ce17d24fd996252eaace",
+            "pf": "6298c597-5acc-431e-b2ef-9f898ce1568b",
+            "pv": "7"
+         },
+         "gkmgaooipdjhmangpemjhigmamcehddo": {
+            "cohort": "1::",
+            "cohortname": "",
+            "dlrc": 5309,
+            "pf": "82aadacf-2733-45b3-908f-9d6bc9b420cb"
+         },
+         "hfnkpimlhhgieaddgfemjhofmfblmnib": {
+            "cohort": "1:jcl:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5309,
+            "fp": "1.fcd3314afb48d2968e73411192c0595880283f7b6fc8e78c138f268d1ffc57cb",
+            "pf": "c6519dc0-ee13-4c75-9fa9-de12fa730828",
+            "pv": "6732"
+         },
+         "hnimpnehoodheedghdeeijklkeaacbdc": {
+            "cohort": "1::",
+            "cohortname": "",
+            "dlrc": 5309,
+            "fp": "1.6f6bc93dcd62dc251850d2ff458fda96083ceb7fbe8eeb11248b8485ef2aea23",
+            "pf": "fac76c44-7a98-48d7-bd23-f2f71c07fbd2",
+            "pv": "0.57.44.2492"
+         },
+         "ihnlcenocehgdaegdmhbidjhnhdchfmm": {
+            "cohort": "1::",
+            "cohortname": "",
+            "dlrc": 5309,
+            "pf": "9300069b-aff7-465b-9ca0-78e91ebfafe9"
+         },
+         "jamhcnnkihinmdlkakkaopbjbbcngflc": {
+            "cohort": "1:wvr:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5309,
+            "fp": "1.4cc7ca58f2cea934a6fb0bcf37f4404356bb0bda06adfbb5a98626914ad0a655",
+            "pf": "23b012c0-28d2-4837-b5b3-53f390b07492",
+            "pv": "93.0.4576.0"
+         },
+         "jflookgnkcckhobaglndicnbbgbonegd": {
+            "cohort": "1:s7x:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5309,
+            "fp": "1.ff4c9e0ffef6311c1e0cf645ee7179e94a23f0dbaed7b596e1b5f9be0684c3e7",
+            "pf": "bf7db6f7-4963-43f9-988d-995cb7801a5f",
+            "pv": "2659"
+         },
+         "khaoiebndkojlmppeemjhbpbandiljpe": {
+            "cohort": "1:cux:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5309,
+            "fp": "1.ffd1d2d75a8183b0a1081bd03a7ce1d140fded7a9fb52cf3ae864cd4d408ceb4",
+            "pf": "82c78ac2-126b-46d4-906c-5f7653de1bf8",
+            "pv": "43"
+         },
+         "llkgjffcdpffmhiakmfcdcblohccpfmo": {
+            "cohort": "1::",
+            "cohortname": "",
+            "dlrc": 5309,
+            "pf": "9020a257-84a6-46c5-9095-85740f2aa169"
+         },
+         "obedbbhbpmojnkanicioggnmelmoomoc": {
+            "cohort": "1:s6f:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5309,
+            "fp": "1.799cd482b1378a60ee57597c532bfccab34530119fbf87b2e7e9f676016c381a",
+            "pf": "6bf7d3d3-caab-4f49-81ee-e0c356d501d4",
+            "pv": "20210705.383967546"
+         },
+         "oimompecagnajdejgnnjijobebaeigek": {
+            "cohort": "1::",
+            "cohortname": "",
+            "dlrc": 5309,
+            "pf": "4afa4332-c2f0-4d00-ad41-e626a4eba39e"
+         },
+         "ojhpjlocmbogdgmfpkhlaaeamibhnphh": {
+            "cohort": "1:w0x:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5309,
+            "pf": "013b5a8a-e720-428e-af12-d630c098db71"
+         },
+         "pdafiollngonhoadbmdoemagnfpdphbe": {
+            "cohort": "1:vz3:",
+            "cohorthint": "Auto",
+            "cohortname": "Auto",
+            "dlrc": 5309,
+            "pf": "4b0b7ac9-8879-49da-8aeb-fd02561aa216"
+         }
+      }
+   },
    "user_experience_metrics": {
       "client_id2": "73c9e22d-b2ef-4602-a610-a24c2b84ca64",
       "client_id_timestamp": "1574836563",
       "low_entropy_source3": 4956,
       "machine_id": 4809022,
       "pseudo_low_entropy_source": 7963,
-      "session_id": 0,
+      "session_id": 8,
       "stability": {
-         "browser_last_live_timestamp": "13270793149372019",
+         "browser_last_live_timestamp": "13270879233363204",
          "child_process_crash_count": 0,
          "crash_count": 0,
          "exited_cleanly": true,
          "extension_renderer_crash_count": 0,
          "extension_renderer_failed_launch_count": 0,
-         "extension_renderer_launch_count": 1,
+         "extension_renderer_launch_count": 9,
          "gpu_crash_count": 0,
          "incomplete_session_end_count": 0,
-         "launch_count": 1,
-         "page_load_count": 3,
+         "launch_count": 9,
+         "page_load_count": 36,
          "plugin_stats2": [  ],
          "renderer_crash_count": 0,
          "renderer_failed_launch_count": 0,
          "renderer_hang_count": 0,
-         "renderer_launch_count": 4,
+         "renderer_launch_count": 51,
          "session_end_completed": true,
          "stats_buildtime": "1624480158",
          "stats_version": "91.0.4472.124-64",
@@ -669,9 +911,9 @@
       "restarted": false
    }
 }
-[1626319795.566][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 23"
-[1626319796.882][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1626319801.927][INFO]: [11716751456476bd40cca22535c1366e] RESPONSE InitSession {
+[1626406097.692][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 23"
+[1626406098.904][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1626406103.851][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "chrome",
@@ -681,7 +923,7 @@
          "userDataDir": "C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 23"
       },
       "goog:chromeOptions": {
-         "debuggerAddress": "localhost:64660"
+         "debuggerAddress": "localhost:63819"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
@@ -700,13 +942,74 @@
       "webauthn:extension:largeBlob": true,
       "webauthn:virtualAuthenticators": true
    },
-   "sessionId": "11716751456476bd40cca22535c1366e"
+   "sessionId": "d389557729bc66b1daa4f1e8ab0d7148"
 }
-[1626319802.039][INFO]: [11716751456476bd40cca22535c1366e] COMMAND Navigate {
-   "url": "https://expired.badssl.com/"
+[1626406103.942][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] COMMAND Navigate {
+   "url": "https://www.amazon.in"
 }
-[1626319802.040][INFO]: Waiting for pending navigations...
-[1626319802.043][INFO]: Done waiting for pending navigations. Status: ok
-[1626319805.962][INFO]: Waiting for pending navigations...
-[1626319806.264][INFO]: Done waiting for pending navigations. Status: ok
-[1626319806.264][INFO]: [11716751456476bd40cca22535c1366e] RESPONSE Navigate
+[1626406103.942][INFO]: Waiting for pending navigations...
+[1626406103.945][INFO]: Done waiting for pending navigations. Status: ok
+[1626406107.871][INFO]: Waiting for pending navigations...
+[1626406111.633][INFO]: Done waiting for pending navigations. Status: ok
+[1626406111.633][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] RESPONSE Navigate
+[1626406111.653][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#searchDropdownBox"
+}
+[1626406111.654][INFO]: Waiting for pending navigations...
+[1626406111.684][INFO]: Done waiting for pending navigations. Status: ok
+[1626406136.851][INFO]: Waiting for pending navigations...
+[1626406136.964][INFO]: Done waiting for pending navigations. Status: ok
+[1626406136.964][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "ee2d6c2a-f62f-4bb1-b378-a208a9a73de8"
+}
+[1626406137.004][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] COMMAND TypeElement {
+   "id": "ee2d6c2a-f62f-4bb1-b378-a208a9a73de8",
+   "text": "Books",
+   "value": [ "B", "o", "o", "k", "s" ]
+}
+[1626406137.004][INFO]: Waiting for pending navigations...
+[1626406137.094][INFO]: Done waiting for pending navigations. Status: ok
+[1626406138.450][INFO]: Waiting for pending navigations...
+[1626406138.523][INFO]: Done waiting for pending navigations. Status: ok
+[1626406138.523][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] RESPONSE TypeElement
+[1626406138.547][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='field-keywords']"
+}
+[1626406138.548][INFO]: Waiting for pending navigations...
+[1626406138.548][INFO]: Done waiting for pending navigations. Status: ok
+[1626406138.565][INFO]: Waiting for pending navigations...
+[1626406138.566][INFO]: Done waiting for pending navigations. Status: ok
+[1626406138.566][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "451acb88-f94a-4007-b258-723a91ab76ce"
+}
+[1626406138.582][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] COMMAND TypeElement {
+   "id": "451acb88-f94a-4007-b258-723a91ab76ce",
+   "text": "Harry Potter",
+   "value": [ "H", "a", "r", "r", "y", " ", "P", "o", "t", "t", "e", "r" ]
+}
+[1626406138.582][INFO]: Waiting for pending navigations...
+[1626406138.583][INFO]: Done waiting for pending navigations. Status: ok
+[1626406138.754][INFO]: Waiting for pending navigations...
+[1626406138.758][INFO]: Done waiting for pending navigations. Status: ok
+[1626406138.758][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] RESPONSE TypeElement
+[1626406138.777][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] COMMAND FindElement {
+   "using": "css selector",
+   "value": "#nav-search-submit-button"
+}
+[1626406138.777][INFO]: Waiting for pending navigations...
+[1626406138.778][INFO]: Done waiting for pending navigations. Status: ok
+[1626406138.794][INFO]: Waiting for pending navigations...
+[1626406138.796][INFO]: Done waiting for pending navigations. Status: ok
+[1626406138.796][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "6b83e524-2061-4f3a-a88b-2f9146f57cb6"
+}
+[1626406138.811][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] COMMAND ClickElement {
+   "id": "6b83e524-2061-4f3a-a88b-2f9146f57cb6"
+}
+[1626406138.811][INFO]: Waiting for pending navigations...
+[1626406138.812][INFO]: Done waiting for pending navigations. Status: ok
+[1626406138.972][INFO]: Waiting for pending navigations...
+[1626406146.058][INFO]: Done waiting for pending navigations. Status: ok
+[1626406146.059][INFO]: [d389557729bc66b1daa4f1e8ab0d7148] RESPONSE ClickElement
