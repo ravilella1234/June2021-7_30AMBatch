@@ -20,5 +20,8 @@
 	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/jar_files/jsoup-1.13.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/jar_files/slf4j-api-1.7.30.jar"/>
 	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/July Browser Drivers/jar_files/webdrivermanager-4.4.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/Selenium/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/Selenium/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/DELL/Desktop/Selenium/freemarker-2.3.28.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
