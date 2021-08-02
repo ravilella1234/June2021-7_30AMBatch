@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AutomationSuite" duration-ms="128" started-at="2021-08-02T03:22:17Z" finished-at="2021-08-02T03:22:17Z">
+    <groups>
+    </groups>
+    <test name="AutomationTest" duration-ms="128" started-at="2021-08-02T03:22:17Z" finished-at="2021-08-02T03:22:17Z">
+      <class name="com.project.July7_30AM_Maven_SeleniumBatch.TNG_002">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_002@5c1a8622]" name="beforeSuite" is-config="true" duration-ms="64" started-at="2021-08-02T03:22:17Z" finished-at="2021-08-02T03:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_002@5c1a8622]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-08-02T03:22:17Z" finished-at="2021-08-02T03:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_002@5c1a8622]" name="beforeClass" is-config="true" duration-ms="1" started-at="2021-08-02T03:22:17Z" finished-at="2021-08-02T03:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_002@5c1a8622]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-08-02T03:22:17Z" finished-at="2021-08-02T03:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:1, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_002@5c1a8622]" name="f" duration-ms="35" started-at="2021-08-02T03:22:17Z" finished-at="2021-08-02T03:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_002@5c1a8622]" name="afterMethod" is-config="true" duration-ms="3" started-at="2021-08-02T03:22:17Z" finished-at="2021-08-02T03:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_002@5c1a8622]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2021-08-02T03:22:17Z" finished-at="2021-08-02T03:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="z()[pri:2, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_002@5c1a8622]" name="z" duration-ms="4" started-at="2021-08-02T03:22:17Z" finished-at="2021-08-02T03:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- z -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_002@5c1a8622]" name="afterMethod" is-config="true" duration-ms="4" started-at="2021-08-02T03:22:17Z" finished-at="2021-08-02T03:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_002@5c1a8622]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-08-02T03:22:17Z" finished-at="2021-08-02T03:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_002@5c1a8622]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-08-02T03:22:17Z" finished-at="2021-08-02T03:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.project.July7_30AM_Maven_SeleniumBatch.TNG_002@5c1a8622]" name="afterSuite" is-config="true" duration-ms="1" started-at="2021-08-02T03:22:17Z" finished-at="2021-08-02T03:22:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.project.July7_30AM_Maven_SeleniumBatch.TNG_002 -->
+    </test> <!-- AutomationTest -->
+  </suite> <!-- AutomationSuite -->
+</testng-results>
