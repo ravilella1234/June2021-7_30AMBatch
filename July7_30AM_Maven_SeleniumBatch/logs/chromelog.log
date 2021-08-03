@@ -1,6 +1,6 @@
-[1627615921.710][INFO]: Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 46121
-[1627615921.710][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1627615922.683][INFO]: [1099181031b5793abeddbd53b703a214] COMMAND InitSession {
+[1627959182.384][INFO]: Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 29043
+[1627959182.384][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1627959182.741][INFO]: [97efc7feb9d13da09ff6c1c5843aa77c] COMMAND InitSession {
    "capabilities": {
       "firstMatch": [ {
          "browserName": "chrome",
@@ -18,9 +18,9 @@
       }
    }
 }
-[1627615922.732][INFO]: Populating Preferences file: {
+[1627959182.759][INFO]: Populating Preferences file: {
    "account_id_migration_state": 2,
-   "account_tracker_service_last_update": "13272088839990035",
+   "account_tracker_service_last_update": "13272430475092507",
    "alternate_error_pages": {
       "backup": true
    },
@@ -51,9 +51,9 @@
    },
    "countryid_at_install": 18766,
    "data_reduction": {
-      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "98428", "373096", "0", "0", "240787", "0", "0", "0", "0", "0", "0", "207939", "0", "0", "200148", "53101" ],
-      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "98428", "373096", "0", "0", "240787", "0", "0", "0", "0", "0", "0", "207939", "0", "0", "200148", "53101" ],
-      "last_update_date": "13272057000000000",
+      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "98428", "373096", "0", "0", "240787", "0", "0", "0", "0", "0", "0", "207939", "0", "0", "200148", "99684", "0", "0", "0", "315270" ],
+      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "98428", "373096", "0", "0", "240787", "0", "0", "0", "0", "0", "0", "207939", "0", "0", "200148", "99684", "0", "0", "0", "315270" ],
+      "last_update_date": "13272402600000000",
       "last_week_services_downstream_background_kb": {
 
       },
@@ -74,12 +74,14 @@
 
       },
       "this_week_services_downstream_foreground_kb": {
-         "130931413": 5,
-         "35473769": 31,
-         "35565745": 5,
-         "54845618": 8,
+         "112189210": 7,
+         "130931413": 8,
+         "35473769": 35,
+         "35565745": 17,
+         "41424546": 22,
+         "54845618": 10,
          "67052219": 0,
-         "78917933": 200,
+         "78917933": 680,
          "88863520": 0
       },
       "this_week_user_traffic_contenttype_downstream_kb": {
@@ -88,7 +90,7 @@
    },
    "default_apps_install_state": 3,
    "domain_diversity": {
-      "last_reporting_timestamp": "13272088840230551"
+      "last_reporting_timestamp": "13272430475103424"
    },
    "download": {
       "directory_upgrade": true
@@ -137,11 +139,11 @@
    },
    "google": {
       "services": {
-         "signin_scoped_device_id": "8d1aa8d5-8221-43cb-9420-555fab438cd5"
+         "signin_scoped_device_id": "f524ead4-eefe-4097-9e94-8003acb8d378"
       }
    },
-   "http_original_content_length": "1173499",
-   "http_received_content_length": "1173499",
+   "http_original_content_length": "1535352",
+   "http_received_content_length": "1535352",
    "in_product_help": {
       "snoozed_feature": {
          "IPH_ProfileSwitch": {
@@ -168,7 +170,7 @@
       }
    },
    "language_model_counters": {
-      "en": 35
+      "en": 44
    },
    "media": {
       "device_id_salt": "4F219AAD3C911AD675F955A78F8DFE82",
@@ -181,7 +183,7 @@
    },
    "ntp": {
       "custom_background_local_to_device": false,
-      "num_personal_suggestions": 5
+      "num_personal_suggestions": 8
    },
    "optimization_guide": {
       "hintsfetcher": {
@@ -238,11 +240,11 @@
             "client_hints": {
                "https://www.amazon.in:443,*": {
                   "expiration": "0",
-                  "last_modified": "13272088845654791",
+                  "last_modified": "13272432738968843",
                   "model": 1,
                   "setting": {
                      "client_hints": [ 6, 4, 5 ],
-                     "expiration_time": 88027615245.65479
+                     "expiration_time": 88027959138.96883
                   }
                }
             },
@@ -304,6 +306,17 @@
 
             },
             "media_engagement": {
+               "http://echoecho.com:80,*": {
+                  "expiration": "0",
+                  "last_modified": "13272432021191845",
+                  "model": 0,
+                  "setting": {
+                     "hasHighScore": false,
+                     "lastMediaPlaybackTime": 0.0,
+                     "mediaPlaybacks": 0,
+                     "visits": 4
+                  }
+               },
                "https://accounts.google.com:443,*": {
                   "expiration": "0",
                   "last_modified": "13270792600136797",
@@ -328,13 +341,13 @@
                },
                "https://www.amazon.in:443,*": {
                   "expiration": "0",
-                  "last_modified": "13272088880824567",
+                  "last_modified": "13272089578071214",
                   "model": 0,
                   "setting": {
                      "hasHighScore": false,
                      "lastMediaPlaybackTime": 0.0,
                      "mediaPlaybacks": 0,
-                     "visits": 21
+                     "visits": 22
                   }
                },
                "https://www.flipkart.com:443,*": {
@@ -348,15 +361,26 @@
                      "visits": 1
                   }
                },
-               "https://www.google.com:443,*": {
+               "https://www.google.co.in:443,*": {
                   "expiration": "0",
-                  "last_modified": "13270792540741378",
+                  "last_modified": "13272432727218891",
                   "model": 0,
                   "setting": {
                      "hasHighScore": false,
                      "lastMediaPlaybackTime": 0.0,
                      "mediaPlaybacks": 0,
-                     "visits": 1
+                     "visits": 3
+                  }
+               },
+               "https://www.google.com:443,*": {
+                  "expiration": "0",
+                  "last_modified": "13272432719721439",
+                  "model": 0,
+                  "setting": {
+                     "hasHighScore": false,
+                     "lastMediaPlaybackTime": 0.0,
+                     "mediaPlaybacks": 0,
+                     "visits": 4
                   }
                }
             },
@@ -412,12 +436,23 @@
 
             },
             "site_engagement": {
-               "https://accounts.google.com:443,*": {
+               "http://echoecho.com:80,*": {
                   "expiration": "0",
-                  "last_modified": "13272088845173634",
+                  "last_modified": "13272431997378109",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.3271932954472008e+16,
+                     "lastEngagementTime": 1.3272431997377976e+16,
+                     "lastShortcutLaunchTime": 0.0,
+                     "pointsAddedToday": 7.5,
+                     "rawScore": 7.5
+                  }
+               },
+               "https://accounts.google.com:443,*": {
+                  "expiration": "0",
+                  "last_modified": "13272430480197664",
+                  "model": 0,
+                  "setting": {
+                     "lastEngagementTime": 1.3272245104973084e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 3.6,
                      "rawScore": 3.6
@@ -425,10 +460,10 @@
                },
                "https://chrome.google.com:443,*": {
                   "expiration": "0",
-                  "last_modified": "13272088845173679",
+                  "last_modified": "13272430480197692",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.327193292475024e+16,
+                     "lastEngagementTime": 1.3272245075251316e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 2.1,
                      "rawScore": 2.1
@@ -436,10 +471,10 @@
                },
                "https://expired.badssl.com:443,*": {
                   "expiration": "0",
-                  "last_modified": "13272088845173503",
+                  "last_modified": "13272430480197568",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.3271933773448008e+16,
+                     "lastEngagementTime": 1.3272245923949084e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 4.5,
                      "rawScore": 4.5
@@ -447,21 +482,21 @@
                },
                "https://www.amazon.in:443,*": {
                   "expiration": "0",
-                  "last_modified": "13272088845692168",
+                  "last_modified": "13272432739004050",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.327208884569214e+16,
+                     "lastEngagementTime": 1.3272432739004018e+16,
                      "lastShortcutLaunchTime": 0.0,
-                     "pointsAddedToday": 15.0,
-                     "rawScore": 25.07100359331412
+                     "pointsAddedToday": 7.5,
+                     "rawScore": 31.004559304591766
                   }
                },
                "https://www.flipkart.com:443,*": {
                   "expiration": "0",
-                  "last_modified": "13272088845173591",
+                  "last_modified": "13272430480197632",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.3271932879749776e+16,
+                     "lastEngagementTime": 1.3272245030250852e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 3.6,
                      "rawScore": 3.6
@@ -469,13 +504,13 @@
                },
                "https://www.google.com:443,*": {
                   "expiration": "0",
-                  "last_modified": "13272088845173717",
+                  "last_modified": "13272432715350844",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.3271932907959504e+16,
+                     "lastEngagementTime": 1.3272432715350788e+16,
                      "lastShortcutLaunchTime": 0.0,
-                     "pointsAddedToday": 3.0,
-                     "rawScore": 3.0
+                     "pointsAddedToday": 6.0,
+                     "rawScore": 8.004466098820812
                   }
                }
             },
@@ -511,10 +546,10 @@
       },
       "created_by_version": "91.0.4472.124",
       "creation_time": "13270792354255511",
-      "exit_type": "Normal",
+      "exit_type": "Crashed",
       "exited_cleanly": true,
       "icon_version": 7,
-      "last_engagement_time": "13272088845692139",
+      "last_engagement_time": "13272432739004018",
       "last_time_obsolete_http_credentials_removed": 1626318814.440904,
       "managed_user_id": "",
       "name": "julychromeprofile",
@@ -527,58 +562,58 @@
       "event_timestamps": {
 
       },
-      "metrics_last_log_time": "13272088839"
+      "metrics_last_log_time": "13272430474"
    },
    "sessions": {
       "event_log": [ {
+         "tab_count": 1,
+         "time": "13272431378430124",
+         "type": 2,
+         "window_count": 1
+      }, {
          "crashed": false,
-         "time": "13271743442450005",
+         "time": "13272431846581760",
+         "type": 0
+      }, {
+         "tab_count": 1,
+         "time": "13272431865513363",
+         "type": 2,
+         "window_count": 1
+      }, {
+         "crashed": false,
+         "time": "13272431871439110",
          "type": 0
       }, {
          "crashed": true,
-         "time": "13272000665238831",
+         "time": "13272431959224238",
          "type": 0
       }, {
          "tab_count": 1,
-         "time": "13272000715282455",
+         "time": "13272431987546488",
          "type": 2,
          "window_count": 1
       }, {
          "crashed": false,
-         "time": "13272001224397484",
+         "time": "13272431990950565",
          "type": 0
       }, {
          "tab_count": 1,
-         "time": "13272001318851613",
+         "time": "13272432021157194",
          "type": 2,
          "window_count": 1
       }, {
          "crashed": false,
-         "time": "13272001334795465",
+         "time": "13272432706360290",
          "type": 0
       }, {
          "tab_count": 1,
-         "time": "13272001752416190",
+         "time": "13272432727212900",
          "type": 2,
          "window_count": 1
       }, {
          "crashed": false,
-         "time": "13272001761122113",
+         "time": "13272432732547892",
          "type": 0
-      }, {
-         "tab_count": 1,
-         "time": "13272002068190140",
-         "type": 2,
-         "window_count": 1
-      }, {
-         "crashed": false,
-         "time": "13272088839558581",
-         "type": 0
-      }, {
-         "tab_count": 1,
-         "time": "13272088880816883",
-         "type": 2,
-         "window_count": 1
       } ]
    },
    "signin": {
@@ -612,7 +647,7 @@
       "system_web_app_last_update": "91.0.4472.164"
    }
 }
-[1627615922.750][INFO]: Populating Local State file: {
+[1627959182.811][INFO]: Populating Local State file: {
    "autofill": {
       "states_data_dir": "C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 23\\AutofillStates\\2020.11.2.164946"
    },
@@ -658,15 +693,15 @@
    },
    "password_manager": {
       "os_password_blank": true,
-      "os_password_last_changed": "13272088880716229"
+      "os_password_last_changed": "13272431912562681"
    },
    "policy": {
-      "last_statistics_update": "13272088839247070"
+      "last_statistics_update": "13272430474424963"
    },
    "profile": {
       "info_cache": {
          "Default": {
-            "active_time": 1627615239.778609,
+            "active_time": 1627956874.966947,
             "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
             "background_apps": false,
             "default_avatar_fill_color": -10089165,
@@ -687,19 +722,19 @@
             "user_name": ""
          }
       },
-      "last_active_profiles": [  ],
+      "last_active_profiles": [ "Default" ],
       "metrics": {
          "next_bucket_index": 2
       },
-      "profile_counts_reported": "13272088839285685"
+      "profile_counts_reported": "13272430474472519"
    },
    "profile_network_context_service": {
       "http_cache_finch_experiment_groups": "None None None"
    },
    "shutdown": {
-      "num_processes": 5,
-      "num_processes_slow": 1,
-      "type": 1
+      "num_processes": 0,
+      "num_processes_slow": 0,
+      "type": 0
    },
    "ssl": {
       "rev_checking": {
@@ -714,7 +749,7 @@
       }
    },
    "tab_stats": {
-      "last_daily_sample": "13272088839794397",
+      "last_daily_sample": "13272430475065267",
       "max_tabs_per_window": 1,
       "total_tab_count_max": 1,
       "window_count_max": 1
@@ -730,167 +765,167 @@
          "aemomkdncapdnfajjbbcbdebjljbpmpj": {
             "cohort": "1::",
             "cohortname": "",
-            "dlrc": 5322,
-            "pf": "7d9685cf-8eee-41ff-81a7-15f7ef5e2caa"
+            "dlrc": 5327,
+            "pf": "77482a59-9096-41ee-bdb3-ef39f062acb7"
          },
          "cmahhnpholdijhjokonmfdjbfmklppij": {
             "cohort": "1:wr3:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5322,
+            "dlrc": 5327,
             "fp": "1.b4ddbdce4f8d5c080328aa34c19cb533f2eedec580b5d97dc14f74935e4756b7",
-            "pf": "b9ee5062-b72b-4cef-a25c-1f746eadd0bd",
+            "pf": "eec2e45b-baca-4b67-b9c0-1167ec828382",
             "pv": "1.0.6"
          },
          "dhlpobdgcjafebgbbhjdnapejmpkgiie": {
             "cohort": "1:z9x:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5322,
+            "dlrc": 5327,
             "fp": "1.3eeded944371798374de67d1fa7bb8f32f90a7cd502b04ee71e0de0cf79e2a11",
-            "pf": "0e25f004-79fb-4c79-97fb-9e09ed41d994",
+            "pf": "cfc826ed-e2eb-4f40-b2ef-07df0b1bc716",
             "pv": "20210609.1"
          },
          "eeigpngbgcognadeebkilcpcaedhellh": {
             "cohort": "1:w59:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5322,
+            "dlrc": 5327,
             "fp": "1.c64c9c1008f3ba5f6e18b3ca524bc98dcd8acfae0a2720a8f1f3ef0f8d643d05",
-            "pf": "e51bc3f4-6ef8-434e-8056-74160fc5f96c",
+            "pf": "2d4db155-9c2a-4cf6-8b52-a27b920ba689",
             "pv": "2020.11.2.164946"
          },
          "ehgidpndbllacpjalkiimkbadgjfnnmc": {
             "cohort": "1:ofl:",
             "cohorthint": "stable64",
             "cohortname": "stable64",
-            "dlrc": 5322,
+            "dlrc": 5327,
             "fp": "1.a8a79d350c2a5e3bc36226633a8e0bed0dfab184e77f38fc8f0820ebacf8eafc",
-            "pf": "1dc0e864-a977-421f-8bac-65ea1896d130",
+            "pf": "4af1caff-2f23-44b6-98cd-accb767a9dd1",
             "pv": "2018.8.8.0"
          },
          "gcmjkmgdlgnkkcocmoeiminaijmmjnii": {
             "cohort": "1:bm1:1069@0.01,1089@0.1",
             "cohorthint": "M54ToM99",
             "cohortname": "M54ToM99",
-            "dlrc": 5322,
+            "dlrc": 5327,
             "fp": "1.91ee417000553ca22ed67530545c4177a08e7ffcf602c292a71bd89ecd0568a5",
-            "pf": "334d8dfe-9e6c-4530-8f60-ca1b62221656",
+            "pf": "47ada442-fb4f-4cc5-9514-b732f856772f",
             "pv": "9.28.0"
          },
          "ggkkehgbnfjpeggfpleeakpidbkibbmn": {
             "cohort": "1:ut9:",
             "cohorthint": "M80ToM99",
             "cohortname": "M80ToM99",
-            "dlrc": 5322,
+            "dlrc": 5327,
             "fp": "1.74566c4cadcd80a841c10f0636c336a7bb1b94f31a05d7e45ae8b385bfbf53ff",
-            "pf": "33742f21-01fd-4405-a417-53d401819d7d",
+            "pf": "a61490f6-ad9b-4685-b84e-e63b7bc684a6",
             "pv": "2021.7.19.1143"
          },
          "giekcmmlnklenlaomppkphknjmnnpneh": {
             "cohort": "1:j5l:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5322,
+            "dlrc": 5327,
             "fp": "1.fd515ec0dc30d25a09641b8b83729234bc50f4511e35ce17d24fd996252eaace",
-            "pf": "57330b6e-8f05-4193-bf34-b7b5c0fb1d43",
+            "pf": "89955ff1-b80e-43ab-9a98-f24b77bf34b2",
             "pv": "7"
          },
          "gkmgaooipdjhmangpemjhigmamcehddo": {
             "cohort": "1::",
             "cohortname": "",
-            "dlrc": 5322,
-            "pf": "6f2315c9-c8b2-4c92-a0f2-81635eba3f57"
+            "dlrc": 5327,
+            "pf": "8a058fe7-e661-4021-8af1-61c4d25ffbf9"
          },
          "hfnkpimlhhgieaddgfemjhofmfblmnib": {
             "cohort": "1:jcl:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5322,
-            "fp": "1.b53a80a73fac28ff3d6f91fb8225891b5005a284922235b8a44d77a0b8bac82e",
-            "pf": "04ea98d7-781b-4b2b-af6d-7c0b2d135ba1",
-            "pv": "6758"
+            "dlrc": 5327,
+            "fp": "1.be5b540d6229fed391ca15bc52ec74cbbe792a127860554a26f4562db7cf7399",
+            "pf": "8d3ac407-8ca4-4aec-a3bb-77d7e858efa3",
+            "pv": "6768"
          },
          "hnimpnehoodheedghdeeijklkeaacbdc": {
             "cohort": "1::",
             "cohortname": "",
-            "dlrc": 5322,
+            "dlrc": 5327,
             "fp": "1.6f6bc93dcd62dc251850d2ff458fda96083ceb7fbe8eeb11248b8485ef2aea23",
-            "pf": "a0d80de4-148f-4791-ae53-c76743e78c90",
+            "pf": "5a2cb89d-4efd-401a-8030-3d1c9d8acc69",
             "pv": "0.57.44.2492"
          },
          "ihnlcenocehgdaegdmhbidjhnhdchfmm": {
             "cohort": "1::",
             "cohortname": "",
-            "dlrc": 5322,
-            "pf": "fa06fa08-c7b0-498d-834d-d5d2a15aab37"
+            "dlrc": 5327,
+            "pf": "e16ed44d-0dfd-414f-ada3-4d18c47dd1c1"
          },
          "jamhcnnkihinmdlkakkaopbjbbcngflc": {
             "cohort": "1:wvr:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5322,
-            "fp": "1.d5cd30e5129c053230cda2c71b61a84974dacfeba78b2cca571586b192d9739e",
-            "pf": "bb1a414e-260b-486b-81ce-9e9b30d1f0c5",
-            "pv": "94.0.4589.2"
+            "dlrc": 5327,
+            "fp": "1.3eb37e5b1e6511a43de4eabc30447fce7f670173f9fc4a9aeb3b1aa4a1ad37ad",
+            "pf": "5cb4e114-d655-44ce-bf6c-ed2753fc72ea",
+            "pv": "94.0.4595.0"
          },
          "jflookgnkcckhobaglndicnbbgbonegd": {
             "cohort": "1:s7x:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5322,
+            "dlrc": 5327,
             "fp": "1.4ed473f003e6f3bd3da930ccead0aaa2b09a73720ccea43ca6037ccdc67d6c04",
-            "pf": "49845d7c-d85a-40e0-8a5a-22a22cfd93b9",
+            "pf": "ad68a2e4-e6bc-4622-9a8d-cff85089aa2b",
             "pv": "2664"
          },
          "khaoiebndkojlmppeemjhbpbandiljpe": {
             "cohort": "1:cux:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5322,
+            "dlrc": 5327,
             "fp": "1.ffd1d2d75a8183b0a1081bd03a7ce1d140fded7a9fb52cf3ae864cd4d408ceb4",
-            "pf": "1260bcad-d434-459f-8b21-09e4ad43163c",
+            "pf": "cde19dcc-e32c-402b-b505-314c8e8f9271",
             "pv": "43"
          },
          "llkgjffcdpffmhiakmfcdcblohccpfmo": {
             "cohort": "1::",
             "cohortname": "",
-            "dlrc": 5322,
+            "dlrc": 5327,
             "fp": "1.2731bdeddb1470bf2f7ae9c585e7315be52a8ce98b8af698ece8e500426e378a",
-            "pf": "864c6406-784e-483f-8474-d6fe232bc9a6",
+            "pf": "a2b70d6e-9278-4478-9ca2-c62fa8981307",
             "pv": "1.0.0.8"
          },
          "obedbbhbpmojnkanicioggnmelmoomoc": {
             "cohort": "1:s6f:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5322,
+            "dlrc": 5327,
             "fp": "1.f04fb66865603529fbad18b32e030430d7ddb9ddd8e273d291686d11a8d86ab5",
-            "pf": "b3267465-5196-477e-a44e-29a6bb478276",
+            "pf": "06e87c5c-14c1-4dda-a02f-d2f6e9d3c3a4",
             "pv": "20210722.386786016"
          },
          "oimompecagnajdejgnnjijobebaeigek": {
             "cohort": "1::",
             "cohortname": "",
-            "dlrc": 5322,
-            "pf": "ea3ff0a4-2b36-44bb-9f4e-adae35bec014"
+            "dlrc": 5327,
+            "pf": "e98ee7f2-77ba-43e6-abab-e00d99ee47bc"
          },
          "ojhpjlocmbogdgmfpkhlaaeamibhnphh": {
             "cohort": "1:w0x:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5322,
+            "dlrc": 5327,
             "fp": "1.478aa915e78878e332a0b4bb4d2a6fb67ff1c7f7b62fe906f47095ba5ae112d0",
-            "pf": "92dee512-49d0-4bbe-b224-cbb8c5827135",
+            "pf": "b0c5bf99-5787-40ff-9097-814fc2c442d6",
             "pv": "1"
          },
          "pdafiollngonhoadbmdoemagnfpdphbe": {
             "cohort": "1:vz3:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5322,
+            "dlrc": 5327,
             "fp": "1.baeb7c645c7704139756b02bf2741430d94ea3835fb1de77fef1057d8c844655",
-            "pf": "7af34e72-8a0a-4122-be69-0f4a4aeae287",
+            "pf": "cff4f566-accd-4048-9e77-1914a9a5a8de",
             "pv": "2021.2.22.1142"
          }
       }
@@ -901,104 +936,34 @@
       "low_entropy_source3": 4956,
       "machine_id": 4809022,
       "pseudo_low_entropy_source": 7963,
-      "session_id": 23,
+      "session_id": 36,
       "stability": {
-         "browser_last_live_timestamp": "13272088880897710",
+         "browser_last_live_timestamp": "13272432780908779",
          "child_process_crash_count": 0,
-         "crash_count": 1,
+         "crash_count": 5,
          "exited_cleanly": true,
          "extension_renderer_crash_count": 0,
          "extension_renderer_failed_launch_count": 0,
-         "extension_renderer_launch_count": 9,
+         "extension_renderer_launch_count": 21,
          "gpu_crash_count": 0,
          "incomplete_session_end_count": 0,
-         "launch_count": 9,
-         "page_load_count": 44,
+         "launch_count": 22,
+         "page_load_count": 98,
          "plugin_stats2": [  ],
          "renderer_crash_count": 0,
          "renderer_failed_launch_count": 0,
          "renderer_hang_count": 0,
-         "renderer_launch_count": 68,
+         "renderer_launch_count": 145,
          "session_end_completed": true,
          "stats_buildtime": "1626281934",
          "stats_version": "91.0.4472.164-64",
          "system_crash_count": 1
       }
    },
-   "variations_crash_streak": 1,
+   "variations_crash_streak": 5,
    "was": {
       "restarted": false
    }
 }
-[1627615922.755][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 23"
-[1627615924.552][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1627615928.931][INFO]: [1099181031b5793abeddbd53b703a214] RESPONSE InitSession {
-   "capabilities": {
-      "acceptInsecureCerts": false,
-      "browserName": "chrome",
-      "browserVersion": "91.0.4472.164",
-      "chrome": {
-         "chromedriverVersion": "91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462})",
-         "userDataDir": "C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 23"
-      },
-      "goog:chromeOptions": {
-         "debuggerAddress": "localhost:61976"
-      },
-      "networkConnectionEnabled": false,
-      "pageLoadStrategy": "normal",
-      "platformName": "windows",
-      "proxy": {
-
-      },
-      "setWindowRect": true,
-      "strictFileInteractability": false,
-      "timeouts": {
-         "implicit": 0,
-         "pageLoad": 300000,
-         "script": 30000
-      },
-      "unhandledPromptBehavior": "dismiss and notify",
-      "webauthn:extension:largeBlob": true,
-      "webauthn:virtualAuthenticators": true
-   },
-   "sessionId": "1099181031b5793abeddbd53b703a214"
-}
-[1627615929.066][INFO]: [1099181031b5793abeddbd53b703a214] COMMAND Navigate {
-   "url": "https://www.amazon.in"
-}
-[1627615929.066][INFO]: Waiting for pending navigations...
-[1627615929.274][INFO]: Done waiting for pending navigations. Status: ok
-[1627615941.497][INFO]: Waiting for pending navigations...
-[1627615945.159][INFO]: Done waiting for pending navigations. Status: ok
-[1627615945.159][INFO]: [1099181031b5793abeddbd53b703a214] RESPONSE Navigate
-[1627615945.183][INFO]: [1099181031b5793abeddbd53b703a214] COMMAND SetTimeouts {
-   "pageLoad": 30000
-}
-[1627615945.183][INFO]: [1099181031b5793abeddbd53b703a214] RESPONSE SetTimeouts
-[1627615945.208][INFO]: [1099181031b5793abeddbd53b703a214] COMMAND FindElement {
-   "using": "link text",
-   "value": "Customer Service"
-}
-[1627615945.208][INFO]: Waiting for pending navigations...
-[1627615967.844][INFO]: Done waiting for pending navigations. Status: ok
-[1627615968.044][INFO]: Waiting for pending navigations...
-[1627615968.054][INFO]: Done waiting for pending navigations. Status: ok
-[1627615968.054][INFO]: [1099181031b5793abeddbd53b703a214] RESPONSE FindElement {
-   "element-6066-11e4-a52e-4f735466cecf": "57b34a9a-fb44-4196-b4b5-022d7f17dd6c"
-}
-[1627615968.102][INFO]: [1099181031b5793abeddbd53b703a214] COMMAND GetElementText {
-   "id": "57b34a9a-fb44-4196-b4b5-022d7f17dd6c"
-}
-[1627615968.102][INFO]: Waiting for pending navigations...
-[1627615968.102][INFO]: Done waiting for pending navigations. Status: ok
-[1627615968.165][INFO]: Waiting for pending navigations...
-[1627615968.166][INFO]: Done waiting for pending navigations. Status: ok
-[1627615968.166][INFO]: [1099181031b5793abeddbd53b703a214] RESPONSE GetElementText "Customer Service"
-[1627615968.175][INFO]: [1099181031b5793abeddbd53b703a214] COMMAND Screenshot {
-
-}
-[1627615968.175][INFO]: Waiting for pending navigations...
-[1627615968.176][INFO]: Done waiting for pending navigations. Status: ok
-[1627615971.204][INFO]: Waiting for pending navigations...
-[1627615971.224][INFO]: Done waiting for pending navigations. Status: ok
-[1627615971.224][INFO]: [1099181031b5793abeddbd53b703a214] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAJlCAYAAAAxcKmfAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3XlcVFX/wPHPzADDoqAmuCKogAuihruGqY9rCWrg9hPLRPMJrVwqzXpyySwtlcetLDVLKjVJRcv1UZPcl1TEBVBBNBPMBAWZYYb5/TFsA8OmKKLf9+vFS+695..."
+[1627959182.843][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 23"
+[1627959184.621][INFO]: [97efc7feb9d13da09ff6c1c5843aa77c] RESPONSE InitSession ERROR invalid argument: user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir

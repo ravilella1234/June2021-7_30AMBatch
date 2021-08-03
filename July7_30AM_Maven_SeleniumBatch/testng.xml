@@ -5,8 +5,8 @@
     <classes>
     
    	  <class name="com.project.July7_30AM_Maven_SeleniumBatch.TNG_002"/>
-     <!--   <class name="com.project.July7_30AM_Maven_SeleniumBatch.TNG_001"/>
-      <class name="com.project.July7_30AM_Maven_SeleniumBatch.DemoClass"/>-->
+      <class name="com.project.July7_30AM_Maven_SeleniumBatch.TNG_001"/>
+      <class name="com.project.July7_30AM_Maven_SeleniumBatch.DemoClass"/>
     </classes>
   </test> <!-- AutomationTest -->
 </suite> <!-- AutomationSuite -->
