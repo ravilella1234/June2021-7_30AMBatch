@@ -1,6 +1,6 @@
-[1627959182.384][INFO]: Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 29043
-[1627959182.384][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1627959182.741][INFO]: [97efc7feb9d13da09ff6c1c5843aa77c] COMMAND InitSession {
+[1628046620.206][INFO]: Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 12200
+[1628046620.206][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1628046620.626][INFO]: [72daf5f3cccafb551962740f8714b12c] COMMAND InitSession {
    "capabilities": {
       "firstMatch": [ {
          "browserName": "chrome",
@@ -18,9 +18,9 @@
       }
    }
 }
-[1627959182.759][INFO]: Populating Preferences file: {
+[1628046620.660][INFO]: Populating Preferences file: {
    "account_id_migration_state": 2,
-   "account_tracker_service_last_update": "13272430475092507",
+   "account_tracker_service_last_update": "13272520066679990",
    "alternate_error_pages": {
       "backup": true
    },
@@ -38,11 +38,11 @@
    "browser": {
       "has_seen_welcome_page": true,
       "window_placement": {
-         "bottom": 701,
-         "left": 2,
+         "bottom": 711,
+         "left": 12,
          "maximized": true,
-         "right": 1012,
-         "top": 10,
+         "right": 1022,
+         "top": 20,
          "work_area_bottom": 728,
          "work_area_left": 0,
          "work_area_right": 1366,
@@ -51,9 +51,9 @@
    },
    "countryid_at_install": 18766,
    "data_reduction": {
-      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "98428", "373096", "0", "0", "240787", "0", "0", "0", "0", "0", "0", "207939", "0", "0", "200148", "99684", "0", "0", "0", "315270" ],
-      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "98428", "373096", "0", "0", "240787", "0", "0", "0", "0", "0", "0", "207939", "0", "0", "200148", "99684", "0", "0", "0", "315270" ],
-      "last_update_date": "13272402600000000",
+      "daily_original_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "98428", "373096", "0", "0", "240787", "0", "0", "0", "0", "0", "0", "207939", "0", "0", "200148", "99684", "0", "0", "0", "446167", "131897" ],
+      "daily_received_length": [ "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "98428", "373096", "0", "0", "240787", "0", "0", "0", "0", "0", "0", "207939", "0", "0", "200148", "99684", "0", "0", "0", "446167", "131897" ],
+      "last_update_date": "13272489000000000",
       "last_week_services_downstream_background_kb": {
 
       },
@@ -75,13 +75,13 @@
       },
       "this_week_services_downstream_foreground_kb": {
          "112189210": 7,
-         "130931413": 8,
+         "130931413": 9,
          "35473769": 35,
-         "35565745": 17,
-         "41424546": 22,
-         "54845618": 10,
+         "35565745": 19,
+         "41424546": 26,
+         "54845618": 15,
          "67052219": 0,
-         "78917933": 680,
+         "78917933": 880,
          "88863520": 0
       },
       "this_week_user_traffic_contenttype_downstream_kb": {
@@ -90,7 +90,7 @@
    },
    "default_apps_install_state": 3,
    "domain_diversity": {
-      "last_reporting_timestamp": "13272430475103424"
+      "last_reporting_timestamp": "13272520066687324"
    },
    "download": {
       "directory_upgrade": true
@@ -139,11 +139,11 @@
    },
    "google": {
       "services": {
-         "signin_scoped_device_id": "f524ead4-eefe-4097-9e94-8003acb8d378"
+         "signin_scoped_device_id": "0dc19f65-88fc-4867-8c22-f1ba2daeeac0"
       }
    },
-   "http_original_content_length": "1535352",
-   "http_received_content_length": "1535352",
+   "http_original_content_length": "1798146",
+   "http_received_content_length": "1798146",
    "in_product_help": {
       "snoozed_feature": {
          "IPH_ProfileSwitch": {
@@ -170,7 +170,7 @@
       }
    },
    "language_model_counters": {
-      "en": 44
+      "en": 46
    },
    "media": {
       "device_id_salt": "4F219AAD3C911AD675F955A78F8DFE82",
@@ -238,15 +238,7 @@
 
             },
             "client_hints": {
-               "https://www.amazon.in:443,*": {
-                  "expiration": "0",
-                  "last_modified": "13272432738968843",
-                  "model": 1,
-                  "setting": {
-                     "client_hints": [ 6, 4, 5 ],
-                     "expiration_time": 88027959138.96883
-                  }
-               }
+
             },
             "clipboard": {
 
@@ -308,13 +300,13 @@
             "media_engagement": {
                "http://echoecho.com:80,*": {
                   "expiration": "0",
-                  "last_modified": "13272432021191845",
+                  "last_modified": "13272520218154070",
                   "model": 0,
                   "setting": {
                      "hasHighScore": false,
                      "lastMediaPlaybackTime": 0.0,
                      "mediaPlaybacks": 0,
-                     "visits": 4
+                     "visits": 6
                   }
                },
                "https://accounts.google.com:443,*": {
@@ -341,13 +333,13 @@
                },
                "https://www.amazon.in:443,*": {
                   "expiration": "0",
-                  "last_modified": "13272089578071214",
+                  "last_modified": "13272462902871600",
                   "model": 0,
                   "setting": {
                      "hasHighScore": false,
                      "lastMediaPlaybackTime": 0.0,
                      "mediaPlaybacks": 0,
-                     "visits": 22
+                     "visits": 23
                   }
                },
                "https://www.flipkart.com:443,*": {
@@ -438,21 +430,21 @@
             "site_engagement": {
                "http://echoecho.com:80,*": {
                   "expiration": "0",
-                  "last_modified": "13272431997378109",
+                  "last_modified": "13272520201076220",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.3272431997377976e+16,
+                     "lastEngagementTime": 1.3272520201076188e+16,
                      "lastShortcutLaunchTime": 0.0,
-                     "pointsAddedToday": 7.5,
-                     "rawScore": 7.5
+                     "pointsAddedToday": 10.5,
+                     "rawScore": 10.03139761152
                   }
                },
                "https://accounts.google.com:443,*": {
                   "expiration": "0",
-                  "last_modified": "13272430480197664",
+                  "last_modified": "13272520072434860",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.3272245104973084e+16,
+                     "lastEngagementTime": 1.3272303638403726e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 3.6,
                      "rawScore": 3.6
@@ -460,10 +452,10 @@
                },
                "https://chrome.google.com:443,*": {
                   "expiration": "0",
-                  "last_modified": "13272430480197692",
+                  "last_modified": "13272520072434890",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.3272245075251316e+16,
+                     "lastEngagementTime": 1.3272303608681958e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 2.1,
                      "rawScore": 2.1
@@ -471,10 +463,10 @@
                },
                "https://expired.badssl.com:443,*": {
                   "expiration": "0",
-                  "last_modified": "13272430480197568",
+                  "last_modified": "13272520072434725",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.3272245923949084e+16,
+                     "lastEngagementTime": 1.3272304457379726e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 4.5,
                      "rawScore": 4.5
@@ -482,10 +474,10 @@
                },
                "https://www.amazon.in:443,*": {
                   "expiration": "0",
-                  "last_modified": "13272432739004050",
+                  "last_modified": "13272520072434955",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.3272432739004018e+16,
+                     "lastEngagementTime": 1.327249127243466e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 7.5,
                      "rawScore": 31.004559304591766
@@ -493,10 +485,10 @@
                },
                "https://www.flipkart.com:443,*": {
                   "expiration": "0",
-                  "last_modified": "13272430480197632",
+                  "last_modified": "13272520072434827",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.3272245030250852e+16,
+                     "lastEngagementTime": 1.3272303563681494e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 3.6,
                      "rawScore": 3.6
@@ -504,10 +496,10 @@
                },
                "https://www.google.com:443,*": {
                   "expiration": "0",
-                  "last_modified": "13272432715350844",
+                  "last_modified": "13272520072434923",
                   "model": 0,
                   "setting": {
-                     "lastEngagementTime": 1.3272432715350788e+16,
+                     "lastEngagementTime": 1.327249124878143e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 6.0,
                      "rawScore": 8.004466098820812
@@ -546,10 +538,10 @@
       },
       "created_by_version": "91.0.4472.124",
       "creation_time": "13270792354255511",
-      "exit_type": "Crashed",
+      "exit_type": "Normal",
       "exited_cleanly": true,
       "icon_version": 7,
-      "last_engagement_time": "13272432739004018",
+      "last_engagement_time": "13272520201076189",
       "last_time_obsolete_http_credentials_removed": 1626318814.440904,
       "managed_user_id": "",
       "name": "julychromeprofile",
@@ -562,46 +554,10 @@
       "event_timestamps": {
 
       },
-      "metrics_last_log_time": "13272430474"
+      "metrics_last_log_time": "13272520066"
    },
    "sessions": {
       "event_log": [ {
-         "tab_count": 1,
-         "time": "13272431378430124",
-         "type": 2,
-         "window_count": 1
-      }, {
-         "crashed": false,
-         "time": "13272431846581760",
-         "type": 0
-      }, {
-         "tab_count": 1,
-         "time": "13272431865513363",
-         "type": 2,
-         "window_count": 1
-      }, {
-         "crashed": false,
-         "time": "13272431871439110",
-         "type": 0
-      }, {
-         "crashed": true,
-         "time": "13272431959224238",
-         "type": 0
-      }, {
-         "tab_count": 1,
-         "time": "13272431987546488",
-         "type": 2,
-         "window_count": 1
-      }, {
-         "crashed": false,
-         "time": "13272431990950565",
-         "type": 0
-      }, {
-         "tab_count": 1,
-         "time": "13272432021157194",
-         "type": 2,
-         "window_count": 1
-      }, {
          "crashed": false,
          "time": "13272432706360290",
          "type": 0
@@ -614,6 +570,41 @@
          "crashed": false,
          "time": "13272432732547892",
          "type": 0
+      }, {
+         "crashed": false,
+         "time": "13272432780908172",
+         "type": 0
+      }, {
+         "crashed": false,
+         "time": "13272432783911641",
+         "type": 0
+      }, {
+         "tab_count": 1,
+         "time": "13272462902864332",
+         "type": 2,
+         "window_count": 1
+      }, {
+         "crashed": false,
+         "time": "13272520066336347",
+         "type": 0
+      }, {
+         "crashed": false,
+         "time": "13272520092821237",
+         "type": 0
+      }, {
+         "tab_count": 1,
+         "time": "13272520128551371",
+         "type": 2,
+         "window_count": 1
+      }, {
+         "crashed": false,
+         "time": "13272520194644956",
+         "type": 0
+      }, {
+         "tab_count": 1,
+         "time": "13272520218129039",
+         "type": 2,
+         "window_count": 1
       } ]
    },
    "signin": {
@@ -647,7 +638,7 @@
       "system_web_app_last_update": "91.0.4472.164"
    }
 }
-[1627959182.811][INFO]: Populating Local State file: {
+[1628046620.721][INFO]: Populating Local State file: {
    "autofill": {
       "states_data_dir": "C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 23\\AutofillStates\\2020.11.2.164946"
    },
@@ -693,15 +684,15 @@
    },
    "password_manager": {
       "os_password_blank": true,
-      "os_password_last_changed": "13272431912562681"
+      "os_password_last_changed": "13272520107471337"
    },
    "policy": {
-      "last_statistics_update": "13272430474424963"
+      "last_statistics_update": "13272520066135402"
    },
    "profile": {
       "info_cache": {
          "Default": {
-            "active_time": 1627956874.966947,
+            "active_time": 1628046466.632495,
             "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
             "background_apps": false,
             "default_avatar_fill_color": -10089165,
@@ -726,15 +717,15 @@
       "metrics": {
          "next_bucket_index": 2
       },
-      "profile_counts_reported": "13272430474472519"
+      "profile_counts_reported": "13272520066144061"
    },
    "profile_network_context_service": {
       "http_cache_finch_experiment_groups": "None None None"
    },
    "shutdown": {
-      "num_processes": 0,
-      "num_processes_slow": 0,
-      "type": 0
+      "num_processes": 6,
+      "num_processes_slow": 3,
+      "type": 4
    },
    "ssl": {
       "rev_checking": {
@@ -749,10 +740,10 @@
       }
    },
    "tab_stats": {
-      "last_daily_sample": "13272430475065267",
+      "last_daily_sample": "13272520066646073",
       "max_tabs_per_window": 1,
-      "total_tab_count_max": 1,
-      "window_count_max": 1
+      "total_tab_count_max": 2,
+      "window_count_max": 2
    },
    "ukm": {
       "persisted_logs": [  ]
@@ -765,167 +756,167 @@
          "aemomkdncapdnfajjbbcbdebjljbpmpj": {
             "cohort": "1::",
             "cohortname": "",
-            "dlrc": 5327,
-            "pf": "77482a59-9096-41ee-bdb3-ef39f062acb7"
+            "dlrc": 5328,
+            "pf": "a7851746-d82e-456b-969d-8dc690fd89cc"
          },
          "cmahhnpholdijhjokonmfdjbfmklppij": {
             "cohort": "1:wr3:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5327,
+            "dlrc": 5328,
             "fp": "1.b4ddbdce4f8d5c080328aa34c19cb533f2eedec580b5d97dc14f74935e4756b7",
-            "pf": "eec2e45b-baca-4b67-b9c0-1167ec828382",
+            "pf": "9cfd36d5-6839-4c7c-9202-6aa56c50d37e",
             "pv": "1.0.6"
          },
          "dhlpobdgcjafebgbbhjdnapejmpkgiie": {
             "cohort": "1:z9x:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5327,
+            "dlrc": 5328,
             "fp": "1.3eeded944371798374de67d1fa7bb8f32f90a7cd502b04ee71e0de0cf79e2a11",
-            "pf": "cfc826ed-e2eb-4f40-b2ef-07df0b1bc716",
+            "pf": "a7e37136-295b-43ac-92bc-bdd4ce10b1cc",
             "pv": "20210609.1"
          },
          "eeigpngbgcognadeebkilcpcaedhellh": {
             "cohort": "1:w59:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5327,
+            "dlrc": 5328,
             "fp": "1.c64c9c1008f3ba5f6e18b3ca524bc98dcd8acfae0a2720a8f1f3ef0f8d643d05",
-            "pf": "2d4db155-9c2a-4cf6-8b52-a27b920ba689",
+            "pf": "a55ca876-c540-42ac-aab9-183e00d74dd9",
             "pv": "2020.11.2.164946"
          },
          "ehgidpndbllacpjalkiimkbadgjfnnmc": {
             "cohort": "1:ofl:",
             "cohorthint": "stable64",
             "cohortname": "stable64",
-            "dlrc": 5327,
+            "dlrc": 5328,
             "fp": "1.a8a79d350c2a5e3bc36226633a8e0bed0dfab184e77f38fc8f0820ebacf8eafc",
-            "pf": "4af1caff-2f23-44b6-98cd-accb767a9dd1",
+            "pf": "14505ceb-afe9-491c-aef5-256ca5287b37",
             "pv": "2018.8.8.0"
          },
          "gcmjkmgdlgnkkcocmoeiminaijmmjnii": {
-            "cohort": "1:bm1:1069@0.01,1089@0.1",
+            "cohort": "1:bm1:10q3@0.01",
             "cohorthint": "M54ToM99",
             "cohortname": "M54ToM99",
-            "dlrc": 5327,
+            "dlrc": 5328,
             "fp": "1.91ee417000553ca22ed67530545c4177a08e7ffcf602c292a71bd89ecd0568a5",
-            "pf": "47ada442-fb4f-4cc5-9514-b732f856772f",
+            "pf": "ca008950-09f3-4a8d-9578-a2cb025d7f31",
             "pv": "9.28.0"
          },
          "ggkkehgbnfjpeggfpleeakpidbkibbmn": {
-            "cohort": "1:ut9:",
+            "cohort": "1:ut9:10tl@0.01",
             "cohorthint": "M80ToM99",
             "cohortname": "M80ToM99",
-            "dlrc": 5327,
+            "dlrc": 5328,
             "fp": "1.74566c4cadcd80a841c10f0636c336a7bb1b94f31a05d7e45ae8b385bfbf53ff",
-            "pf": "a61490f6-ad9b-4685-b84e-e63b7bc684a6",
+            "pf": "a7f4d66e-451e-4db5-9d90-99a0516aad17",
             "pv": "2021.7.19.1143"
          },
          "giekcmmlnklenlaomppkphknjmnnpneh": {
             "cohort": "1:j5l:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5327,
+            "dlrc": 5328,
             "fp": "1.fd515ec0dc30d25a09641b8b83729234bc50f4511e35ce17d24fd996252eaace",
-            "pf": "89955ff1-b80e-43ab-9a98-f24b77bf34b2",
+            "pf": "829ea8a3-24f1-452c-82df-95c7cda93af6",
             "pv": "7"
          },
          "gkmgaooipdjhmangpemjhigmamcehddo": {
             "cohort": "1::",
             "cohortname": "",
-            "dlrc": 5327,
-            "pf": "8a058fe7-e661-4021-8af1-61c4d25ffbf9"
+            "dlrc": 5328,
+            "pf": "6c140208-624c-4630-b516-4a2bb901c428"
          },
          "hfnkpimlhhgieaddgfemjhofmfblmnib": {
             "cohort": "1:jcl:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5327,
-            "fp": "1.be5b540d6229fed391ca15bc52ec74cbbe792a127860554a26f4562db7cf7399",
-            "pf": "8d3ac407-8ca4-4aec-a3bb-77d7e858efa3",
-            "pv": "6768"
+            "dlrc": 5328,
+            "fp": "1.4360394d61ffc83c78fd21c76c37ea231dc9263b708e95118cfaf93d3fa0226e",
+            "pf": "2dc79b44-8c96-4a2e-829c-5fe563440063",
+            "pv": "6769"
          },
          "hnimpnehoodheedghdeeijklkeaacbdc": {
             "cohort": "1::",
             "cohortname": "",
-            "dlrc": 5327,
+            "dlrc": 5328,
             "fp": "1.6f6bc93dcd62dc251850d2ff458fda96083ceb7fbe8eeb11248b8485ef2aea23",
-            "pf": "5a2cb89d-4efd-401a-8030-3d1c9d8acc69",
+            "pf": "ebd7cb17-d7f8-4717-ab83-54bf6e494616",
             "pv": "0.57.44.2492"
          },
          "ihnlcenocehgdaegdmhbidjhnhdchfmm": {
             "cohort": "1::",
             "cohortname": "",
-            "dlrc": 5327,
-            "pf": "e16ed44d-0dfd-414f-ada3-4d18c47dd1c1"
+            "dlrc": 5328,
+            "pf": "c295d60a-88c8-4ff4-80b0-c332309c941f"
          },
          "jamhcnnkihinmdlkakkaopbjbbcngflc": {
             "cohort": "1:wvr:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5327,
-            "fp": "1.3eb37e5b1e6511a43de4eabc30447fce7f670173f9fc4a9aeb3b1aa4a1ad37ad",
-            "pf": "5cb4e114-d655-44ce-bf6c-ed2753fc72ea",
-            "pv": "94.0.4595.0"
+            "dlrc": 5328,
+            "fp": "1.37e69d6b04d6dcd87aca9a5ece5ec547237b9c1a02a173ed3ba533e73cd78435",
+            "pf": "94d229b5-225f-40e1-a6c9-f7644e64480e",
+            "pv": "94.0.4596.0"
          },
          "jflookgnkcckhobaglndicnbbgbonegd": {
             "cohort": "1:s7x:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5327,
+            "dlrc": 5328,
             "fp": "1.4ed473f003e6f3bd3da930ccead0aaa2b09a73720ccea43ca6037ccdc67d6c04",
-            "pf": "ad68a2e4-e6bc-4622-9a8d-cff85089aa2b",
+            "pf": "139e04b5-ee0b-4b4a-b85f-d208611968e4",
             "pv": "2664"
          },
          "khaoiebndkojlmppeemjhbpbandiljpe": {
             "cohort": "1:cux:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5327,
+            "dlrc": 5328,
             "fp": "1.ffd1d2d75a8183b0a1081bd03a7ce1d140fded7a9fb52cf3ae864cd4d408ceb4",
-            "pf": "cde19dcc-e32c-402b-b505-314c8e8f9271",
+            "pf": "58a5e8f7-a476-4660-8f58-022619b8bb9b",
             "pv": "43"
          },
          "llkgjffcdpffmhiakmfcdcblohccpfmo": {
             "cohort": "1::",
             "cohortname": "",
-            "dlrc": 5327,
+            "dlrc": 5328,
             "fp": "1.2731bdeddb1470bf2f7ae9c585e7315be52a8ce98b8af698ece8e500426e378a",
-            "pf": "a2b70d6e-9278-4478-9ca2-c62fa8981307",
+            "pf": "7a0c6ae6-e087-40d3-8e31-10d0680ca226",
             "pv": "1.0.0.8"
          },
          "obedbbhbpmojnkanicioggnmelmoomoc": {
             "cohort": "1:s6f:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5327,
+            "dlrc": 5328,
             "fp": "1.f04fb66865603529fbad18b32e030430d7ddb9ddd8e273d291686d11a8d86ab5",
-            "pf": "06e87c5c-14c1-4dda-a02f-d2f6e9d3c3a4",
+            "pf": "45db7ff8-1cba-4b3a-bd98-f928420711bb",
             "pv": "20210722.386786016"
          },
          "oimompecagnajdejgnnjijobebaeigek": {
             "cohort": "1::",
             "cohortname": "",
-            "dlrc": 5327,
-            "pf": "e98ee7f2-77ba-43e6-abab-e00d99ee47bc"
+            "dlrc": 5328,
+            "pf": "bbbfa0c5-2865-4382-ab05-f093e6d6534b"
          },
          "ojhpjlocmbogdgmfpkhlaaeamibhnphh": {
             "cohort": "1:w0x:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5327,
+            "dlrc": 5328,
             "fp": "1.478aa915e78878e332a0b4bb4d2a6fb67ff1c7f7b62fe906f47095ba5ae112d0",
-            "pf": "b0c5bf99-5787-40ff-9097-814fc2c442d6",
+            "pf": "5498e80d-48f6-43e1-9a30-01356f1a6145",
             "pv": "1"
          },
          "pdafiollngonhoadbmdoemagnfpdphbe": {
             "cohort": "1:vz3:",
             "cohorthint": "Auto",
             "cohortname": "Auto",
-            "dlrc": 5327,
+            "dlrc": 5328,
             "fp": "1.baeb7c645c7704139756b02bf2741430d94ea3835fb1de77fef1057d8c844655",
-            "pf": "cff4f566-accd-4048-9e77-1914a9a5a8de",
+            "pf": "fdcb9aa6-27e0-4292-81eb-5d9a60ca99c9",
             "pv": "2021.2.22.1142"
          }
       }
@@ -936,34 +927,163 @@
       "low_entropy_source3": 4956,
       "machine_id": 4809022,
       "pseudo_low_entropy_source": 7963,
-      "session_id": 36,
+      "session_id": 37,
       "stability": {
-         "browser_last_live_timestamp": "13272432780908779",
+         "browser_last_live_timestamp": "13272520218421036",
          "child_process_crash_count": 0,
-         "crash_count": 5,
+         "crash_count": 4,
          "exited_cleanly": true,
          "extension_renderer_crash_count": 0,
          "extension_renderer_failed_launch_count": 0,
-         "extension_renderer_launch_count": 21,
+         "extension_renderer_launch_count": 23,
          "gpu_crash_count": 0,
          "incomplete_session_end_count": 0,
-         "launch_count": 22,
-         "page_load_count": 98,
+         "launch_count": 23,
+         "page_load_count": 114,
          "plugin_stats2": [  ],
          "renderer_crash_count": 0,
          "renderer_failed_launch_count": 0,
          "renderer_hang_count": 0,
-         "renderer_launch_count": 145,
+         "renderer_launch_count": 165,
          "session_end_completed": true,
          "stats_buildtime": "1626281934",
          "stats_version": "91.0.4472.164-64",
          "system_crash_count": 1
       }
    },
-   "variations_crash_streak": 5,
+   "variations_crash_streak": 4,
    "was": {
       "restarted": false
    }
 }
-[1627959182.843][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 23"
-[1627959184.621][INFO]: [97efc7feb9d13da09ff6c1c5843aa77c] RESPONSE InitSession ERROR invalid argument: user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+[1628046620.726][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-notifications --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --start-maximized --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\DELL\AppData\Local\Google\Chrome\User Data\Profile 23"
+[1628046622.102][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1628046627.045][INFO]: [72daf5f3cccafb551962740f8714b12c] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "91.0.4472.164",
+      "chrome": {
+         "chromedriverVersion": "91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462})",
+         "userDataDir": "C:\\Users\\DELL\\AppData\\Local\\Google\\Chrome\\User Data\\Profile 23"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:50830"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:largeBlob": true,
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "72daf5f3cccafb551962740f8714b12c"
+}
+[1628046627.064][INFO]: [72daf5f3cccafb551962740f8714b12c] COMMAND Navigate {
+   "url": "http://echoecho.com/htmlforms09.htm"
+}
+[1628046627.064][INFO]: Waiting for pending navigations...
+[1628046627.318][INFO]: Done waiting for pending navigations. Status: ok
+[1628046631.320][INFO]: Waiting for pending navigations...
+[1628046641.554][INFO]: Done waiting for pending navigations. Status: ok
+[1628046641.554][INFO]: [72daf5f3cccafb551962740f8714b12c] RESPONSE Navigate
+[1628046641.654][INFO]: [72daf5f3cccafb551962740f8714b12c] COMMAND SetTimeouts {
+   "pageLoad": 30000
+}
+[1628046641.654][INFO]: [72daf5f3cccafb551962740f8714b12c] RESPONSE SetTimeouts
+[1628046641.775][INFO]: [72daf5f3cccafb551962740f8714b12c] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//td[@class='table5']/input[@type='checkbox']"
+}
+[1628046642.861][INFO]: Waiting for pending navigations...
+[1628046642.883][INFO]: Done waiting for pending navigations. Status: ok
+[1628046642.919][INFO]: Waiting for pending navigations...
+[1628046642.920][INFO]: Done waiting for pending navigations. Status: ok
+[1628046642.920][INFO]: [72daf5f3cccafb551962740f8714b12c] RESPONSE FindElements [ {
+   "element-6066-11e4-a52e-4f735466cecf": "51904216-4386-4af3-b554-f9e97cde89c4"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "0f2ff7a3-474b-48c2-bd6a-5e331d19fb13"
+}, {
+   "element-6066-11e4-a52e-4f735466cecf": "9764cef9-1c46-4bb2-8d2c-add5545d68c7"
+} ]
+[1628046642.949][INFO]: [72daf5f3cccafb551962740f8714b12c] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "51904216-4386-4af3-b554-f9e97cde89c4"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1628046642.950][INFO]: Waiting for pending navigations...
+[1628046642.952][INFO]: Done waiting for pending navigations. Status: ok
+[1628046642.960][INFO]: Waiting for pending navigations...
+[1628046642.961][INFO]: Done waiting for pending navigations. Status: ok
+[1628046642.961][INFO]: [72daf5f3cccafb551962740f8714b12c] RESPONSE ExecuteScript "Milk"
+[1628046642.990][INFO]: [72daf5f3cccafb551962740f8714b12c] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "51904216-4386-4af3-b554-f9e97cde89c4"
+   }, "checked" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1628046642.991][INFO]: Waiting for pending navigations...
+[1628046643.000][INFO]: Done waiting for pending navigations. Status: ok
+[1628046643.011][INFO]: Waiting for pending navigations...
+[1628046643.012][INFO]: Done waiting for pending navigations. Status: ok
+[1628046643.012][INFO]: [72daf5f3cccafb551962740f8714b12c] RESPONSE ExecuteScript null
+[1628046643.042][INFO]: [72daf5f3cccafb551962740f8714b12c] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0f2ff7a3-474b-48c2-bd6a-5e331d19fb13"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1628046643.043][INFO]: Waiting for pending navigations...
+[1628046643.045][INFO]: Done waiting for pending navigations. Status: ok
+[1628046643.059][INFO]: Waiting for pending navigations...
+[1628046643.060][INFO]: Done waiting for pending navigations. Status: ok
+[1628046643.060][INFO]: [72daf5f3cccafb551962740f8714b12c] RESPONSE ExecuteScript "Butter"
+[1628046643.072][INFO]: [72daf5f3cccafb551962740f8714b12c] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "0f2ff7a3-474b-48c2-bd6a-5e331d19fb13"
+   }, "checked" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1628046643.073][INFO]: Waiting for pending navigations...
+[1628046643.074][INFO]: Done waiting for pending navigations. Status: ok
+[1628046643.080][INFO]: Waiting for pending navigations...
+[1628046643.085][INFO]: Done waiting for pending navigations. Status: ok
+[1628046643.085][INFO]: [72daf5f3cccafb551962740f8714b12c] RESPONSE ExecuteScript "true"
+[1628046643.120][INFO]: [72daf5f3cccafb551962740f8714b12c] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "9764cef9-1c46-4bb2-8d2c-add5545d68c7"
+   }, "value" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1628046643.121][INFO]: Waiting for pending navigations...
+[1628046643.126][INFO]: Done waiting for pending navigations. Status: ok
+[1628046643.134][INFO]: Waiting for pending navigations...
+[1628046643.135][INFO]: Done waiting for pending navigations. Status: ok
+[1628046643.135][INFO]: [72daf5f3cccafb551962740f8714b12c] RESPONSE ExecuteScript "Cheese"
+[1628046643.147][INFO]: [72daf5f3cccafb551962740f8714b12c] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "9764cef9-1c46-4bb2-8d2c-add5545d68c7"
+   }, "checked" ],
+   "script": "return (function(){return function(){var d=this;function f(a){return\"string\"==typeof a};function h(a,b){this.code=a;this.a=l[a]||m;this.message=b||\"\";a=this.a.replace(/((?:^|\\s+)[a-z])/g,function(a){return a.toUpperCase().replace(/^[\\s\\xa0]+/g,\"\")});b=a.length-5;if(0>b||a.indexOf(\"Error\",b)!=b)a+=\"Error\";this.name=a;a=Error(this.message);a.name=this.name;this.stack=a.stack||\"\"}\n(function(){var a=Error;function b(){}b.prototype=a.prototype;h.b=a.prototype;h.prototype=new b;h.prototype.constructor=h;h.a=function(b,c,g){for(var e=Array(arguments.length-2),k=2;k\u003Carguments.length;k++)e[k-2]=arguments[k];return a.prototype[c].apply(b,e)}})();var m=\"unknown error\",l={15:\"element not selectable\",11:\"element not visible\"};l[31]=m;l[30]=m;l[24]=\"invalid cookie domain\";l[29]=\"invalid element coordinates\";l[12]=\"invalid element state\";l[32]=\"invalid selector\";l[51]=\"invalid selector\";\nl[52]=\"invalid selector\";l[17]=\"javascript error\";l[405]=\"unsupported operation\";l[34]=\"move target out of bounds\";l[27]=\"no such alert\";l[7]=\"no such element\";l[8]=\"no such frame\";l[23]=\"no such window\";l[28]=\"script timeout\";l[33]=\"session not created\";l[10]=\"stale element reference\";l[21]=\"timeout\";l[25]=\"unable to set cookie\";l[26]=\"unexpected alert open\";l[13]=m;l[9]=\"unknown command\";h.prototype.toString=function(){return this.name+\": \"+this.message};var n;a:{var p=d.navigator;if(p){var q=p.userAgent;if(q){n=q;break a}}n=\"\"}function r(a){return-1!=n.indexOf(a)};function t(a,b){for(var e=a.length,c=f(a)?a.split(\"\"):a,g=0;g\u003Ce;g++)g in c&&b.call(void 0,c[g],g,a)};function v(){return r(\"iPhone\")&&!r(\"iPod\")&&!r(\"iPad\")};function w(){return(r(\"Chrome\")||r(\"CriOS\"))&&!r(\"Edge\")};var x=r(\"Opera\"),y=r(\"Trident\")||r(\"MSIE\"),z=r(\"Edge\"),A=r(\"Gecko\")&&!(-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\"))&&!(r(\"Trident\")||r(\"MSIE\"))&&!r(\"Edge\"),aa=-1!=n.toLowerCase().indexOf(\"webkit\")&&!r(\"Edge\");function B(){var a=d.document;return a?a.documentMode:void 0}var C;\na:{var D=\"\",E=function(){var a=n;if(A)return/rv\\:([^\\);]+)(\\)|;)/.exec(a);if(z)return/Edge\\/([\\d\\.]+)/.exec(a);if(y)return/\\b(?:MSIE|rv)[: ]([^\\);]+)(\\)|;)/.exec(a);if(aa)return/WebKit\\/(\\S+)/.exec(a);if(x)return/(?:Version)[ \\/]?(\\S+)/.exec(a)}();E&&(D=E?E[1]:\"\");if(y){var F=B();if(null!=F&&F>parseFloat(D)){C=String(F);break a}}C=D}var G;var H=d.document;G=H&&y?B()||(\"CSS1Compat\"==H.compatMode?parseInt(C,10):5):void 0;var ba=r(\"Firefox\"),ca=v()||r(\"iPod\"),da=r(\"iPad\"),I=r(\"Android\")&&!(w()||r(\"Firefox\")||r(\"Opera\")||r(\"Silk\")),ea=w(),J=r(\"Safari\")&&!(w()||r(\"Coast\")||r(\"Opera\")||r(\"Edge\")||r(\"Silk\")||r(\"Android\"))&&!(v()||r(\"iPad\")||r(\"iPod\"));function K(a){return(a=a.exec(n))?a[1]:\"\"}(function(){if(ba)return K(/Firefox\\/([0-9.]+)/);if(y||z||x)return C;if(ea)return v()||r(\"iPad\")||r(\"iPod\")?K(/CriOS\\/([0-9.]+)/):K(/Chrome\\/([0-9.]+)/);if(J&&!(v()||r(\"iPad\")||r(\"iPod\")))return K(/Version\\/([0-9.]+)/);if(ca||da){var a=/Version\\/(\\S+).*Mobile\\/(\\S+)/.exec(n);if(a)return a[1]+\".\"+a[2]}else if(I)return(a=K(/Android\\s+([0-9.]+)/))?a:K(/Version\\/([0-9.]+)/);return\"\"})();var L,M=function(){if(!A)return!1;var a=d.Components;if(!a)return!1;try{if(!a.classes)return!1}catch(g){return!1}var b=a.classes,a=a.interfaces,e=b[\"@mozilla.org/xpcom/version-comparator;1\"].getService(a.nsIVersionComparator),c=b[\"@mozilla.org/xre/app-info;1\"].getService(a.nsIXULAppInfo).version;L=function(a){e.compare(c,\"\"+a)};return!0}(),N=y&&!(8\u003C=Number(G)),fa=y&&!(9\u003C=Number(G));I&&M&&L(2.3);I&&M&&L(4);J&&M&&L(6);var ga={SCRIPT:1,STYLE:1,HEAD:1,IFRAME:1,OBJECT:1},O={IMG:\" \",BR:\"\\n\"};function P(a,b,e){if(!(a.nodeName in ga))if(3==a.nodeType)e?b.push(String(a.nodeValue).replace(/(\\r\\n|\\r|\\n)/g,\"\")):b.push(a.nodeValue);else if(a.nodeName in O)b.push(O[a.nodeName]);else for(a=a.firstChild;a;)P(a,b,e),a=a.nextSibling};function Q(a,b){b=b.toLowerCase();return\"style\"==b?ha(a.style.cssText):N&&\"value\"==b&&R(a,\"INPUT\")?a.value:fa&&!0===a[b]?String(a.getAttribute(b)):(a=a.getAttributeNode(b))&&a.specified?a.value:null}var ia=/[;]+(?=(?:(?:[^\"]*\"){2})*[^\"]*$)(?=(?:(?:[^']*'){2})*[^']*$)(?=(?:[^()]*\\([^()]*\\))*[^()]*$)/;\nfunction ha(a){var b=[];t(a.split(ia),function(a){var c=a.indexOf(\":\");0\u003Cc&&(a=[a.slice(0,c),a.slice(c+1)],2==a.length&&b.push(a[0].toLowerCase(),\":\",a[1],\";\"))});b=b.join(\"\");return b=\";\"==b.charAt(b.length-1)?b:b+\";\"}function S(a,b){N&&\"value\"==b&&R(a,\"OPTION\")&&null===Q(a,\"value\")?(b=[],P(a,b,!1),a=b.join(\"\")):a=a[b];return a}function R(a,b){b&&\"string\"!==typeof b&&(b=b.toString());return!!a&&1==a.nodeType&&(!b||a.tagName.toUpperCase()==b)}\nfunction T(a){return R(a,\"OPTION\")?!0:R(a,\"INPUT\")?(a=a.type.toLowerCase(),\"checkbox\"==a||\"radio\"==a):!1};var ja={\"class\":\"className\",readonly:\"readOnly\"},U=\"allowfullscreen allowpaymentrequest allowusermedia async autofocus autoplay checked compact complete controls declare default defaultchecked defaultselected defer disabled ended formnovalidate hidden indeterminate iscontenteditable ismap itemscope loop multiple muted nohref nomodule noresize noshade novalidate nowrap open paused playsinline pubdate readonly required reversed scoped seamless seeking selected truespeed typemustmatch willvalidate\".split(\" \");function V(a,b){var e=null,c=b.toLowerCase();if(\"style\"==c)return(e=a.style)&&!f(e)&&(e=e.cssText),e;if((\"selected\"==c||\"checked\"==c)&&T(a)){if(!T(a))throw new h(15,\"Element is not selectable\");b=\"selected\";e=a.type&&a.type.toLowerCase();if(\"checkbox\"==e||\"radio\"==e)b=\"checked\";return S(a,b)?\"true\":null}var g=R(a,\"A\");if(R(a,\"IMG\")&&\"src\"==c||g&&\"href\"==c)return(e=Q(a,c))&&(e=S(a,c)),e;if(\"spellcheck\"==c){e=Q(a,c);if(null!==e){if(\"false\"==e.toLowerCase())return\"false\";if(\"true\"==e.toLowerCase())return\"true\"}return S(a,\nc)+\"\"}g=ja[b]||b;a:if(f(U))c=f(c)&&1==c.length?U.indexOf(c,0):-1;else{for(var u=0;u\u003CU.length;u++)if(u in U&&U[u]===c){c=u;break a}c=-1}if(0\u003C=c)return(e=null!==Q(a,b)||S(a,g))?\"true\":null;try{var k=S(a,g)}catch(ka){}(c=null==k)||(c=typeof k,c=\"object\"==c&&null!=k||\"function\"==c);c?e=Q(a,b):e=k;return null!=e?e.toString():null}var W=[\"_\"],X=d;W[0]in X||!X.execScript||X.execScript(\"var \"+W[0]);\nfor(var Y;W.length&&(Y=W.shift());){var Z;if(Z=!W.length)Z=void 0!==V;Z?X[Y]=V:X[Y]&&X[Y]!==Object.prototype[Y]?X=X[Y]:X=X[Y]={}};; return this._.apply(null,arguments);}.apply({navigator:typeof window!='undefined'?window.navigator:null,document:typeof window!='undefined'?window.document:null}, arguments);}\n).apply(null, arguments);"
+}
+[1628046643.147][INFO]: Waiting for pending navigations...
+[1628046643.165][INFO]: Done waiting for pending navigations. Status: ok
+[1628046643.175][INFO]: Waiting for pending navigations...
+[1628046643.180][INFO]: Done waiting for pending navigations. Status: ok
+[1628046643.180][INFO]: [72daf5f3cccafb551962740f8714b12c] RESPONSE ExecuteScript null
+[1628046643.487][INFO]: [72daf5f3cccafb551962740f8714b12c] COMMAND Quit {
+
+}
+[1628046643.502][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1628046645.110][INFO]: [72daf5f3cccafb551962740f8714b12c] RESPONSE Quit
