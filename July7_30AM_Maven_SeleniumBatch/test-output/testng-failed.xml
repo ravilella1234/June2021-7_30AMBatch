@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="testngListners.Listner"/>
+    <listener class-name="testngListners.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="parallelsuites.TestDependency">
+      <class name="com.project.July7_30AM_Maven_SeleniumBatch.LinksTesting1">
         <methods>
-          <include name="orange"/>
-          <include name="white"/>
-          <include name="green"/>
-          <include name="blue"/>
+          <include name="tearDown"/>
+          <include name="linktesting1"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- parallelsuites.TestDependency -->
+      </class> <!-- com.project.July7_30AM_Maven_SeleniumBatch.LinksTesting1 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
