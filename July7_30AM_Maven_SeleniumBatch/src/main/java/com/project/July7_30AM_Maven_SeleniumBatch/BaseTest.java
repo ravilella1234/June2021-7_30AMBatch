@@ -22,6 +22,8 @@ import org.openqa.selenium.firefox.ProfilesIni;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestContext;
+import org.testng.annotations.BeforeMethod;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
@@ -42,10 +44,22 @@ public class BaseTest
 	public static ExtentTest test;
 	public static String filePath;
 	
+	public int x ;
+	
+	
+	
 	static
 	{
 		Date dt = new Date();
 		filePath = dt.toString().replace(':', '_').replace(' ', '_');
+	}
+	
+	@BeforeMethod
+	public void beforeMethod(ITestContext context)
+	{
+		System.out.println("iam before Method...");
+		x=100;
+		context.setAttribute("x_value", x);
 	}
 	
 	public static void init() throws Exception
