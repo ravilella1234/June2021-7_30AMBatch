@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Booking_Suite">
+              <span class="suite-name border-passed">Booking Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Booking_Suite">
+                    <span>D:\AprilWorkSpace\HotelBookingProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Booking_Suite">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Booking_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Booking_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Booking_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Booking_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Booking_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Booking_Suite" class="hide-methods passed suite-Booking_Suite"> (hide)</a> <!-- hide-methods passed suite-Booking_Suite -->
+                      <a href="#" panel-name="suite-Booking_Suite" class="show-methods passed suite-Booking_Suite"> (show)</a> <!-- show-methods passed suite-Booking_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Booking_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.PaymentManager" hash-for-method="applyDiscount">applyDiscount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.PaymentManager" hash-for-method="applyDiscount">applyDiscount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.PaymentManager" hash-for-method="applyDiscount">applyDiscount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.CustomerCommunications" hash-for-method="checkEmail(org.testng.TestRunner@543c6f6d)">checkEmail(org.testng.TestRunner@543c6f6d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.CustomerCommunications" hash-for-method="checkEmail(org.testng.TestRunner@eb21112)">checkEmail(org.testng.TestRunner@eb21112)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.CustomerCommunications" hash-for-method="checkEmail(org.testng.TestRunner@954b04f)">checkEmail(org.testng.TestRunner@954b04f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.BookingSearch" hash-for-method="enterGuestInfo">enterGuestInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.BookingSearch" hash-for-method="enterGuestInfo">enterGuestInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.BookingSearch" hash-for-method="enterGuestInfo">enterGuestInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.BookingSearch" hash-for-method="loadBooking">loadBooking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.PaymentManager" hash-for-method="makePayment(pay@hotel, org.testng.TestRunner@543c6f6d)">makePayment(pay@hotel, org.testng.TestRunner@543c6f6d)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.PaymentManager" hash-for-method="makePayment(instantpay, org.testng.TestRunner@eb21112)">makePayment(instantpay, org.testng.TestRunner@eb21112)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.PaymentManager" hash-for-method="makePayment(pay@hotel, org.testng.TestRunner@954b04f)">makePayment(pay@hotel, org.testng.TestRunner@954b04f)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.BookingSearch" hash-for-method="searchHotel">searchHotel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.BookingSearch" hash-for-method="searchHotel">searchHotel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.BookingSearch" hash-for-method="selectHotel">selectHotel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.BookingSearch" hash-for-method="selectHotel">selectHotel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Booking_Suite" title="testcases.BookingSearch" hash-for-method="selectHotel">selectHotel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Booking_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Booking_Suite" class="panel Booking_Suite">
+          <div class="suite-Booking_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.PaymentManager</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="applyDiscount">
+                  </a> <!-- applyDiscount -->
+                  <span class="method-name">applyDiscount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="applyDiscount">
+                  </a> <!-- applyDiscount -->
+                  <span class="method-name">applyDiscount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="applyDiscount">
+                  </a> <!-- applyDiscount -->
+                  <span class="method-name">applyDiscount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="makePayment(pay@hotel, org.testng.TestRunner@543c6f6d)">
+                  </a> <!-- makePayment(pay@hotel, org.testng.TestRunner@543c6f6d) -->
+                  <span class="method-name">makePayment</span>
+                  <span class="parameters">(pay@hotel, org.testng.TestRunner@543c6f6d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="makePayment(instantpay, org.testng.TestRunner@eb21112)">
+                  </a> <!-- makePayment(instantpay, org.testng.TestRunner@eb21112) -->
+                  <span class="method-name">makePayment</span>
+                  <span class="parameters">(instantpay, org.testng.TestRunner@eb21112)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="makePayment(pay@hotel, org.testng.TestRunner@954b04f)">
+                  </a> <!-- makePayment(pay@hotel, org.testng.TestRunner@954b04f) -->
+                  <span class="method-name">makePayment</span>
+                  <span class="parameters">(pay@hotel, org.testng.TestRunner@954b04f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Booking_Suite-class-passed -->
+          <div class="suite-Booking_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.BookingSearch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterGuestInfo">
+                  </a> <!-- enterGuestInfo -->
+                  <span class="method-name">enterGuestInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterGuestInfo">
+                  </a> <!-- enterGuestInfo -->
+                  <span class="method-name">enterGuestInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterGuestInfo">
+                  </a> <!-- enterGuestInfo -->
+                  <span class="method-name">enterGuestInfo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loadBooking">
+                  </a> <!-- loadBooking -->
+                  <span class="method-name">loadBooking</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchHotel">
+                  </a> <!-- searchHotel -->
+                  <span class="method-name">searchHotel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchHotel">
+                  </a> <!-- searchHotel -->
+                  <span class="method-name">searchHotel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectHotel">
+                  </a> <!-- selectHotel -->
+                  <span class="method-name">selectHotel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectHotel">
+                  </a> <!-- selectHotel -->
+                  <span class="method-name">selectHotel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectHotel">
+                  </a> <!-- selectHotel -->
+                  <span class="method-name">selectHotel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Booking_Suite-class-passed -->
+          <div class="suite-Booking_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.CustomerCommunications</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEmail(org.testng.TestRunner@543c6f6d)">
+                  </a> <!-- checkEmail(org.testng.TestRunner@543c6f6d) -->
+                  <span class="method-name">checkEmail</span>
+                  <span class="parameters">(org.testng.TestRunner@543c6f6d)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEmail(org.testng.TestRunner@eb21112)">
+                  </a> <!-- checkEmail(org.testng.TestRunner@eb21112) -->
+                  <span class="method-name">checkEmail</span>
+                  <span class="parameters">(org.testng.TestRunner@eb21112)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkEmail(org.testng.TestRunner@954b04f)">
+                  </a> <!-- checkEmail(org.testng.TestRunner@954b04f) -->
+                  <span class="method-name">checkEmail</span>
+                  <span class="parameters">(org.testng.TestRunner@954b04f)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Booking_Suite-class-passed -->
+        </div> <!-- panel Booking_Suite -->
+        <div panel-name="test-xml-Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\AprilWorkSpace\HotelBookingProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Booking Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Create Booking Test - Apply Discount - pay@hotel&quot;&gt;
+    &lt;parameter name=&quot;action&quot; value=&quot;pay@hotel&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.BookingSearch&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;searchHotel&quot;/&gt;
+          &lt;include name=&quot;selectHotel&quot;/&gt;
+          &lt;include name=&quot;enterGuestInfo&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.BookingSearch --&gt;
+      &lt;class name=&quot;testcases.PaymentManager&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;applyDiscount&quot;/&gt;
+          &lt;include name=&quot;makePayment&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.PaymentManager --&gt;
+      &lt;class name=&quot;testcases.CustomerCommunications&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;checkEmail&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.CustomerCommunications --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create Booking Test - Apply Discount - pay@hotel --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Create Booking Test - Apply Discount - Instant Payment&quot;&gt;
+    &lt;parameter name=&quot;action&quot; value=&quot;instantpay&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.BookingSearch&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;searchHotel&quot;/&gt;
+          &lt;include name=&quot;selectHotel&quot;/&gt;
+          &lt;include name=&quot;enterGuestInfo&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.BookingSearch --&gt;
+      &lt;class name=&quot;testcases.PaymentManager&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;applyDiscount&quot;/&gt;
+          &lt;include name=&quot;makePayment&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.PaymentManager --&gt;
+      &lt;class name=&quot;testcases.CustomerCommunications&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;checkEmail&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.CustomerCommunications --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create Booking Test - Apply Discount - Instant Payment --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Modify Booking Test - Apply Discount - pay@hotel&quot;&gt;
+    &lt;parameter name=&quot;action&quot; value=&quot;pay@hotel&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.BookingSearch&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loadBooking&quot;/&gt;
+          &lt;include name=&quot;selectHotel&quot;/&gt;
+          &lt;include name=&quot;enterGuestInfo&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.BookingSearch --&gt;
+      &lt;class name=&quot;testcases.PaymentManager&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;applyDiscount&quot;/&gt;
+          &lt;include name=&quot;makePayment&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.PaymentManager --&gt;
+      &lt;class name=&quot;testcases.CustomerCommunications&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;checkEmail&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testcases.CustomerCommunications --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Modify Booking Test - Apply Discount - pay@hotel --&gt;
+&lt;/suite&gt; &lt;!-- Booking Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Booking Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Create Booking Test - Apply Discount - pay@hotel (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Create Booking Test - Apply Discount - Instant Payment (3 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Modify Booking Test - Apply Discount - pay@hotel (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Booking Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Booking Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Booking_Suite');
+function tableData_Booking_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'searchHotel')
+data.setCell(0, 2, 'testcases.BookingSearch')
+data.setCell(0, 3, 36);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selectHotel')
+data.setCell(1, 2, 'testcases.BookingSearch')
+data.setCell(1, 3, 11);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'applyDiscount')
+data.setCell(2, 2, 'testcases.PaymentManager')
+data.setCell(2, 3, 10);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkEmail')
+data.setCell(3, 2, 'testcases.CustomerCommunications')
+data.setCell(3, 3, 10);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkEmail')
+data.setCell(4, 2, 'testcases.CustomerCommunications')
+data.setCell(4, 3, 9);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'selectHotel')
+data.setCell(5, 2, 'testcases.BookingSearch')
+data.setCell(5, 3, 8);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'makePayment')
+data.setCell(6, 2, 'testcases.PaymentManager')
+data.setCell(6, 3, 4);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'enterGuestInfo')
+data.setCell(7, 2, 'testcases.BookingSearch')
+data.setCell(7, 3, 4);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'checkEmail')
+data.setCell(8, 2, 'testcases.CustomerCommunications')
+data.setCell(8, 3, 4);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'selectHotel')
+data.setCell(9, 2, 'testcases.BookingSearch')
+data.setCell(9, 3, 4);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'applyDiscount')
+data.setCell(10, 2, 'testcases.PaymentManager')
+data.setCell(10, 3, 4);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'applyDiscount')
+data.setCell(11, 2, 'testcases.PaymentManager')
+data.setCell(11, 3, 3);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'makePayment')
+data.setCell(12, 2, 'testcases.PaymentManager')
+data.setCell(12, 3, 3);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'searchHotel')
+data.setCell(13, 2, 'testcases.BookingSearch')
+data.setCell(13, 3, 3);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'enterGuestInfo')
+data.setCell(14, 2, 'testcases.BookingSearch')
+data.setCell(14, 3, 2);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'makePayment')
+data.setCell(15, 2, 'testcases.PaymentManager')
+data.setCell(15, 3, 2);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'enterGuestInfo')
+data.setCell(16, 2, 'testcases.BookingSearch')
+data.setCell(16, 3, 2);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'loadBooking')
+data.setCell(17, 2, 'testcases.BookingSearch')
+data.setCell(17, 3, 1);
+window.suiteTableData['Booking_Suite']= { tableData: data, tableDiv: 'times-div-Booking_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 120 ms</span>
+              <div id="times-div-Booking_Suite">
+              </div> <!-- times-div-Booking_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Booking Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">3 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcases.BookingSearch</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">loadBooking</span>
+                <br/>
+                <span class="ignored-method-name">loadBooking</span>
+                <br/>
+                <span class="ignored-method-name">searchHotel</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Booking_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.BookingSearch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchHotel</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectHotel</span>
+                <span class="method-start">57 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterGuestInfo</span>
+                <span class="method-start">69 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PaymentManager</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">applyDiscount</span>
+                <span class="method-start">86 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">makePayment(pay@hotel, org.testng.TestRunner@543c6f6d)</span>
+                <span class="method-start">103 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CustomerCommunications</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkEmail(org.testng.TestRunner@543c6f6d)</span>
+                <span class="method-start">120 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.BookingSearch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">searchHotel</span>
+                <span class="method-start">265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectHotel</span>
+                <span class="method-start">278 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterGuestInfo</span>
+                <span class="method-start">299 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PaymentManager</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">applyDiscount</span>
+                <span class="method-start">310 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">makePayment(instantpay, org.testng.TestRunner@eb21112)</span>
+                <span class="method-start">317 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CustomerCommunications</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkEmail(org.testng.TestRunner@eb21112)</span>
+                <span class="method-start">328 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.BookingSearch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loadBooking</span>
+                <span class="method-start">359 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectHotel</span>
+                <span class="method-start">372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterGuestInfo</span>
+                <span class="method-start">387 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.PaymentManager</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">applyDiscount</span>
+                <span class="method-start">393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">makePayment(pay@hotel, org.testng.TestRunner@954b04f)</span>
+                <span class="method-start">401 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.CustomerCommunications</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">checkEmail(org.testng.TestRunner@954b04f)</span>
+                <span class="method-start">412 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
