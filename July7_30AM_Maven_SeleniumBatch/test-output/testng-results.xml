@@ -1,81 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="198" started-at="2021-08-10T08:58:12 IST" finished-at="2021-08-10T08:58:12 IST">
+  <suite name="Default suite" duration-ms="3132" started-at="2021-08-18T08:30:28 IST" finished-at="2021-08-18T08:30:31 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="198" started-at="2021-08-10T08:58:12 IST" finished-at="2021-08-10T08:58:12 IST">
-      <class name="assertions.NewTest1">
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:assertions.NewTest1@167fdd33]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-08-10T08:58:12 IST" finished-at="2021-08-10T08:58:12 IST">
+    <test name="Default test" duration-ms="3132" started-at="2021-08-18T08:30:28 IST" finished-at="2021-08-18T08:30:31 IST">
+      <class name="excelDataDriven.DataManagementwithDataProviders">
+        <test-method status="PASS" signature="sampleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:excelDataDriven.DataManagementwithDataProviders@396f6598]" name="sampleTest" duration-ms="29" started-at="2021-08-18T08:30:31 IST" data-provider="getData" finished-at="2021-08-18T08:30:31 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@24a35978]]>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ravilella.2015@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[zoho2015]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[loginSuccess]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test3(org.testng.ITestContext)[pri:0, instance:assertions.NewTest1@167fdd33]" name="test3" duration-ms="3" started-at="2021-08-10T08:58:12 IST" finished-at="2021-08-10T08:58:12 IST">
+        </test-method> <!-- sampleTest -->
+        <test-method status="PASS" signature="sampleTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:excelDataDriven.DataManagementwithDataProviders@396f6598]" name="sampleTest" duration-ms="2" started-at="2021-08-18T08:30:31 IST" data-provider="getData" finished-at="2021-08-18T08:30:31 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@24a35978]]>
+                <![CDATA[N]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[U1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[P1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[loginSuccess]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test3 -->
-      </class> <!-- assertions.NewTest1 -->
-      <class name="assertions.NewTest">
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:assertions.NewTest@5f282abb]" name="beforeMethod" is-config="true" duration-ms="10" started-at="2021-08-10T08:58:12 IST" finished-at="2021-08-10T08:58:12 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@24a35978]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test1(org.testng.ITestContext)[pri:0, instance:assertions.NewTest@5f282abb]" name="test1" duration-ms="15" started-at="2021-08-10T08:58:12 IST" finished-at="2021-08-10T08:58:12 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@24a35978]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:assertions.NewTest@5f282abb]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-08-10T08:58:12 IST" finished-at="2021-08-10T08:58:12 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@24a35978]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="test2(org.testng.ITestContext)[pri:0, instance:assertions.NewTest@5f282abb]" name="test2" duration-ms="7" started-at="2021-08-10T08:58:12 IST" finished-at="2021-08-10T08:58:12 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@24a35978]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- assertions.NewTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- sampleTest -->
+      </class> <!-- excelDataDriven.DataManagementwithDataProviders -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
