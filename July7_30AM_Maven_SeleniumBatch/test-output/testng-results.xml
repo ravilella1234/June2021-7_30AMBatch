@@ -1,43 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="31524" started-at="2021-08-24T08:14:25 IST" finished-at="2021-08-24T08:14:56 IST">
+  <suite started-at="2021-09-14T08:17:11 IST" name="Default suite" finished-at="2021-09-14T08:17:29 IST" duration-ms="17707">
     <groups>
     </groups>
-    <test name="Test" duration-ms="31524" started-at="2021-08-24T08:14:25 IST" finished-at="2021-08-24T08:14:56 IST">
-      <class name="pageObjectModel.POM_001">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:pageObjectModel.POM_001@59e5ddf]" name="beforeClass" is-config="true" duration-ms="23937" started-at="2021-08-24T08:14:25 IST" finished-at="2021-08-24T08:14:49 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(org.testng.ITestContext)[pri:0, instance:pageObjectModel.POM_001@59e5ddf]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-08-24T08:14:49 IST" finished-at="2021-08-24T08:14:49 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2fea7088]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2021-09-14T08:17:11 IST" name="Default test" finished-at="2021-09-14T08:17:29 IST" duration-ms="17707">
+      <class name="switches.FileUpload">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:switches.FileUpload@49c7b90e]" started-at="2021-09-14T08:17:11 IST" name="beforeMethod" finished-at="2021-09-14T08:17:25 IST" duration-ms="14155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="login()[pri:0, instance:pageObjectModel.POM_001@59e5ddf]" name="login" duration-ms="7491" started-at="2021-08-24T08:14:49 IST" finished-at="2021-08-24T08:14:56 IST">
+        <test-method signature="fileupload()[pri:0, instance:switches.FileUpload@49c7b90e]" started-at="2021-09-14T08:17:25 IST" name="fileupload" finished-at="2021-09-14T08:17:29 IST" duration-ms="3430" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:pageObjectModel.POM_001@59e5ddf]" name="afterClass" is-config="true" duration-ms="1" started-at="2021-08-24T08:14:56 IST" finished-at="2021-08-24T08:14:56 IST">
+        </test-method> <!-- fileupload -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:switches.FileUpload@49c7b90e]" started-at="2021-09-14T08:17:29 IST" name="afterMethod" finished-at="2021-09-14T08:17:29 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- pageObjectModel.POM_001 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- afterMethod -->
+      </class> <!-- switches.FileUpload -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
