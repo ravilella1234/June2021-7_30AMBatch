@@ -1,0 +1,21 @@
+Generic Keywords
+----------------
+1) openBrowser
+2) navigateurl
+3) type
+4) click
+5) select
+6) getText
+
+Application keywords
+--------------------
+1) Login
+2) Selecting the dates from calander
+
+
+validation keywords
+-------------------
+1) Validate title
+2) Validate element is present
+3) Validate element clickable
+4) validate text present
