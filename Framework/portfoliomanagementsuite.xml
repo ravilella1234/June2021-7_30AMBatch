@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PortfolioSuite">
+
+  <test  name="CreatePortfolioTest">
+    <classes>
+    
+      <class name="testcases.Sessions">
+	      <methods>
+	      	<include name="doLogin"></include>
+	      </methods>
+      </class>
+      
+      <class name="testcases.PortfolioManagment">
+      	<methods>
+      		<include name="createPortfolio"></include>
+      	</methods>
+      </class>
+      
+    </classes>
+  </test> <!-- CreatePortfolioTest -->
+  
+  <test name="DeletePortfolioTest">
+  	<classes>
+  		<class name="testcases.Sessions">
+  			<methods>
+  				<include name="doLogin"></include>
+  			</methods>
+  		</class>
+  		
+  		<class name="testcases.PortfolioManagment">
+  			<methods>
+  				<include name="deletePortfolio"></include>
+  			</methods>
+  		</class>
+  	</classes>
+  </test>
+  
+</suite> <!-- PortfolioSuite -->

@@ -1,6 +1,6 @@
 package keywords;
 
-public class ApplicationKeywords 
+public class ApplicationKeywords extends GenericKeywords
 {
 	
 	public void Login()

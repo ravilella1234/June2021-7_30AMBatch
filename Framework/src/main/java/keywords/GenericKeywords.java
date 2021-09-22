@@ -1,11 +1,26 @@
 package keywords;
 
-public class GenericKeywords 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class GenericKeywords  extends ValidationKeywords
 {
+	public WebDriver driver;
 	
-	public void openBrowser(String browserType)
+	public void openBrowser(String browser)
 	{
+		System.out.println("Opening The Browser : " + browser);
 		
+		if(browser.equals("chrome")){
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+		}else if(browser.equals("firefox")) {
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+		}
 	}
 	
 	public void navigateurl(String url)

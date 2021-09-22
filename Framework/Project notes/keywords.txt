@@ -19,3 +19,18 @@ validation keywords
 2) Validate element is present
 3) Validate element clickable
 4) validate text present
+
+
+Scenarios :
+-----------
+
+Create Protfolio Test : Login , Create Portfolio , verify Portfolio, LogOut
+Delete Protfolio Test : Login , Select the Protfolio, Delete portfolio, Verify Portfolio,  LogOut
+
+Add New Stock : Login , Select Portfolio , Add the stocks , Verify the stock in table, Verify                 quantity, Verify average buy price, Verify Transaction History,  LogOut
+
+Modify existing Stock : Login, Select Portfolio, Verify the stock in table & select Stock , Buy/sell                         the stocks, Verify quantity, Verify average buy price, Verify Transaction                              History ,  LogOut
+
+
+
+
