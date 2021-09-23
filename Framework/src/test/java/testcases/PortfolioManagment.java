@@ -1,13 +1,18 @@
 package testcases;
 
+import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
-public class PortfolioManagment 
+import testbases.BaseTest;
+
+public class PortfolioManagment extends BaseTest
 {
 	@Test
-	public void createPortfolio()
+	public void createPortfolio(ITestContext context)
 	{
 		System.out.println("createPortfolio");
+		System.out.println(x);
+		System.out.println(context.getAttribute("x_val"));
 	}
 	
 	@Test

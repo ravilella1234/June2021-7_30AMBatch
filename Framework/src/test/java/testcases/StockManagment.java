@@ -2,7 +2,9 @@ package testcases;
 
 import org.testng.annotations.Test;
 
-public class StockManagment 
+import testbases.BaseTest;
+
+public class StockManagment extends BaseTest
 {
 	@Test
 	public void addNewStock()
