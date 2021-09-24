@@ -11,8 +11,9 @@ public class BaseTest
 	public ApplicationKeywords app;
 	public int x;
 	
+	
 	@BeforeTest
-	public void beforeTest(ITestContext context)
+	public void beforeTest(ITestContext context) throws Exception
 	{
 		System.out.println("############## Before Test  #############");
 		app = new ApplicationKeywords();//This app reference will share to entire test methods

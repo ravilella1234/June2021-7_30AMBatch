@@ -15,7 +15,11 @@ public class Sessions extends BaseTest
 		x=10;
 		System.out.println(x);
 		context.setAttribute("x_val", x);
-		app.openBrowser(null);
+		app.openBrowser("chromebrowser");
+		app.navigateurl("rediffurl");
+		app.type("user_id", "ravilella2021@rediffmail.com");
+		app.type("userpassword_id", "Sai@2015");
+		app.click("loginbutton_id");
 	}
 	
 	@Test

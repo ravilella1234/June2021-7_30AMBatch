@@ -20,7 +20,7 @@
     </classes>
   </test> <!-- CreatePortfolioTest -->
   
-  <test name="DeletePortfolioTest">
+  <!-- <test name="DeletePortfolioTest">
   	<classes>
   		<class name="testcases.Sessions">
   			<methods>
@@ -34,6 +34,6 @@
   			</methods>
   		</class>
   	</classes>
-  </test>
+  </test> -->
   
 </suite> <!-- PortfolioSuite -->
