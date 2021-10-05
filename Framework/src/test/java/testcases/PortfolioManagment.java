@@ -3,6 +3,8 @@ package testcases;
 import org.testng.ITestContext;
 import org.testng.annotations.Test;
 
+import com.aventstack.extentreports.Status;
+
 import testbases.BaseTest;
 
 public class PortfolioManagment extends BaseTest
@@ -11,6 +13,7 @@ public class PortfolioManagment extends BaseTest
 	public void createPortfolio(ITestContext context)
 	{
 		System.out.println("createPortfolio");
+		test.log(Status.INFO, "Creating  Portfolio");
 		System.out.println(x);
 		System.out.println(context.getAttribute("x_val"));
 	}
